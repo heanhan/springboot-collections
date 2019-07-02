@@ -7,52 +7,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms-spring-boot-starter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms-spring-boot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms-spring-boot-starter/src/main/java/com/example/smsstarter/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms-spring-boot-starter/src/main/java/com/example/smsstarter/config/SmsAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms-spring-boot-starter/src/main/java/com/example/smsstarter/config/SmsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms-spring-boot-starter/src/main/java/com/example/smsstarter/core/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms-spring-boot-starter/src/main/java/com/example/smsstarter/pojo/ENUM_SMSAPI_URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms-spring-boot-starter/src/main/java/com/example/smsstarter/pojo/SendSMSDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-collections.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-file/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-file/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-file/src/main/java/com/example/file/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-file/src/main/java/com/example/file/SpringbootFileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-file/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-file/src/test/java/com/example/file/SpringbootFileApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-getValue/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-getValue/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-getValue/src/main/java/com/example/demo/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-getValue/src/main/java/com/example/demo/SpringbootGetValueApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-getValue/src/main/java/com/example/demo/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-getValue/src/main/java/com/example/demo/pojo/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-getValue/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-getValue/src/test/java/com/example/demo/SpringbootGetValueApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-readsql/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-readsql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-readsql/src/main/java/com/zhaojh/readsql/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-readsql/src/main/java/com/zhaojh/readsql/SpringbootReadsqlApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-readsql/src/main/java/com/zhaojh/readsql/controller/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-readsql/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-readsql/src/test/java/com/zhaojh/readsql/SpringbootReadsqlApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-shiro/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-shiro/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/example/shiro/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/example/shiro/SpringbootShiroApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/example/shiro/dao/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/java/com/example/shiro/dao/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-shiro/src/test/java/com/example/shiro/SpringbootShiroApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-websocket/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-websocket/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/example/websocket/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-websocket/src/main/java/com/example/websocket/SpringbootWebsocketApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-websocket/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-websocket/src/test/java/com/example/websocket/SpringbootWebsocketApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -202,13 +156,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -296,8 +250,16 @@
       <workItem from="1561887461826" duration="1127000" />
       <workItem from="1561962014702" duration="4904000" />
       <workItem from="1561968821569" duration="2787000" />
-      <workItem from="1561981195458" duration="4889000" />
+      <workItem from="1561981195458" duration="5308000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot-collections：重新整理一份springboot 的学习框架，知识点梳理">
+      <created>1562035046505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562035046505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -333,7 +295,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23202000" />
+    <option name="totallyTimeSpent" value="23621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,7 +320,7 @@
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Tail" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
@@ -385,6 +347,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot-collections：重新整理一份springboot 的学习框架，知识点梳理" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot-collections：重新整理一份springboot 的学习框架，知识点梳理" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springboot-readsql/src/main/java/com/zhaojh/readsql/SpringbootReadsqlApplication.java">
