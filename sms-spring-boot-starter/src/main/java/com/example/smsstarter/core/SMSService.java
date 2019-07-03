@@ -10,12 +10,14 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.Resource;
+
 /**
  * 短信的核心类
  */
 public class SMSService {
 
-    @Autowired
+    @Resource
     private RestTemplate restTemplate;
     private String appid;
     private String accountSid;
