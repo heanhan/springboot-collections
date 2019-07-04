@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-readsql/springboot-readsql.iml" filepath="$PROJECT_DIR$/springboot-readsql/springboot-readsql.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-taskjobs/springboot-taskjobs.iml" filepath="$PROJECT_DIR$/springboot-taskjobs/springboot-taskjobs.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
     </modules>
   </component>
