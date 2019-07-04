@@ -3,6 +3,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springboot-file" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-getValue" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-html" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-readsql" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-shiro" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-websocket" />
@@ -11,6 +13,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-html/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-common/pom.xml" />
       </list>
     </option>
   </component>

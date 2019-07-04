@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhaojh.mybatis.mapper.IStudentMapper">
+
+    <!--添加学生-->
+    <insert id="addStudent" parameterType="student">
+        insert into student(stuId,stuName,age,sex,telphone,headPhoto,personPhoto,hobby,email,descs)
+        values (#{stuId},#{stuName},#{age},#{sex},#{telphone},#{headPhoto},#{personPhoto},#{hobby},#{email},#{descs})
+    </insert>
+
+    <!--查询所有的学生信息-->
+    <select id="findAllStudent" resultType="student">
+        select * from student
+    </select>
+
+    <!--动态条件查询学生信息-->
+
+    <select id="findStudentByCondition" resultType="student">
+        select * from  student
+        <where>
+            <if test="stuId != null and stuId !=''">
+                stuId = #{stuId}
+            </if>
+            <if test="stuName !=null and stuName!=''">
+                and  stuName like  CONCAT('%',#{stuName},'%')
+            </if>
+            <if test="sex !=null and sex!=''">
+                and sex=#{sex}
+            </if>
+            <if test="telphone !=null and telphone !=''">
+                and telphone=#{telphone}
+            </if>
+        </where>
+
+    </select>
+
+</mapper>
