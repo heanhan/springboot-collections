@@ -17,6 +17,7 @@
           <element id="archive" name="springboot-common-0.0.1-SNAPSHOT.jar">
             <element id="module-output" name="springboot-common" />
           </element>
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-thymeleaf:2.1.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.1.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.1.5.RELEASE" />

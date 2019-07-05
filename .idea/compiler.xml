@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-taskjobs" />
+        <module name="springboot-websocket" />
         <module name="springboot-getValue" />
-        <module name="springboot-shiro" />
+        <module name="springboot-common" />
+        <module name="springboot-web" />
         <module name="springboot-readsql" />
         <module name="springboot-html" />
-        <module name="springboot-file" />
-        <module name="springboot-common" />
-        <module name="springboot-websocket" />
+        <module name="springboot-files" />
+        <module name="springboot-taskjobs" />
+        <module name="springboot-shiro" />
         <module name="springboot-mybatis" />
       </profile>
     </annotationProcessing>
@@ -21,12 +22,14 @@
       <module name="springboot-collections" target="1.8" />
       <module name="springboot-common" target="1.8" />
       <module name="springboot-file" target="1.8" />
+      <module name="springboot-files" target="1.8" />
       <module name="springboot-getValue" target="1.8" />
       <module name="springboot-html" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-readsql" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-taskjobs" target="1.8" />
+      <module name="springboot-web" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -34,12 +37,14 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-common" options="" />
       <module name="springboot-file" options="-parameters" />
+      <module name="springboot-files" options="-parameters" />
       <module name="springboot-getValue" options="-parameters" />
       <module name="springboot-html" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-readsql" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-taskjobs" options="-parameters" />
+      <module name="springboot-web" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
     </option>
   </component>

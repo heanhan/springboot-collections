@@ -2,12 +2,14 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springboot-file" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-files" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-getValue" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-html" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-readsql" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-shiro" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-taskjobs" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-web" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-websocket" />
   </component>
   <component name="MavenProjectsManager">
@@ -18,7 +20,15 @@
         <option value="$PROJECT_DIR$/springboot-html/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-common/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-taskjobs/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-file/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-files/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springboot-file/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

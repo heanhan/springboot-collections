@@ -20,8 +20,8 @@
     <modules>
         <module>springboot-common</module>
         <module>springboot-readsql</module>
+        <module>springboot-files</module>
         <module>springboot-getValue</module>
-        <module>springboot-file</module>
         <module>springboot-shiro</module>
         <module>springboot-websocket</module>
         <module>springboot-mybatis</module>
