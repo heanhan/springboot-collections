@@ -24,8 +24,10 @@
         <module>springboot-getValue</module>
         <module>springboot-shiro</module>
         <module>springboot-websocket</module>
+        <module>springboot-taskjobs</module>
         <module>springboot-mybatis</module>
         <module>springboot-html</module>
+        <module>springboot-web</module>
     </modules>
     <dependencies>
 
