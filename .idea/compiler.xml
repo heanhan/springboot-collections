@@ -6,23 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-websocket" />
+        <module name="springboot-mybatis" />
+        <module name="demo" />
+        <module name="springboot-fileupload" />
         <module name="springboot-getValue" />
-        <module name="springboot-common" />
         <module name="springboot-web" />
+        <module name="springboot-shiro" />
         <module name="springboot-readsql" />
         <module name="springboot-html" />
         <module name="springboot-files" />
+        <module name="springboot-common" />
+        <module name="springboot-websocket" />
         <module name="springboot-taskjobs" />
-        <module name="springboot-shiro" />
-        <module name="springboot-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="springboot-collections" target="1.8" />
       <module name="springboot-common" target="1.8" />
       <module name="springboot-file" target="1.8" />
       <module name="springboot-files" target="1.8" />
+      <module name="springboot-fileupload" target="1.8" />
       <module name="springboot-getValue" target="1.8" />
       <module name="springboot-html" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
@@ -35,9 +39,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
       <module name="springboot-common" options="" />
       <module name="springboot-file" options="-parameters" />
       <module name="springboot-files" options="-parameters" />
+      <module name="springboot-fileupload" options="-parameters" />
       <module name="springboot-getValue" options="-parameters" />
       <module name="springboot-html" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />

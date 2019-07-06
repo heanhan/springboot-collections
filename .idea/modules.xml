@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-getValue/demo.iml" filepath="$PROJECT_DIR$/springboot-getValue/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-collections.iml" filepath="$PROJECT_DIR$/springboot-collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-common/springboot-common.iml" filepath="$PROJECT_DIR$/springboot-common/springboot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-files/springboot-files.iml" filepath="$PROJECT_DIR$/springboot-files/springboot-files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-fileupload/springboot-fileupload.iml" filepath="$PROJECT_DIR$/springboot-fileupload/springboot-fileupload.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-getValue/springboot-getValue.iml" filepath="$PROJECT_DIR$/springboot-getValue/springboot-getValue.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-html/springboot-html.iml" filepath="$PROJECT_DIR$/springboot-html/springboot-html.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />

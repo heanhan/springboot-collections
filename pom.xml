@@ -21,6 +21,7 @@
         <module>springboot-common</module>
         <module>springboot-readsql</module>
         <module>springboot-files</module>
+        <module>springboot-fileupload</module>
         <module>springboot-getValue</module>
         <module>springboot-shiro</module>
         <module>springboot-websocket</module>
