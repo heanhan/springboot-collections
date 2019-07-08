@@ -29,6 +29,7 @@
         <module>springboot-mybatis</module>
         <module>springboot-html</module>
         <module>springboot-web</module>
+        <module>springboot-poi</module>
     </modules>
     <dependencies>
 
@@ -47,12 +48,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>

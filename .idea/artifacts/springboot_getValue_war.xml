@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="demo-0.0.1-SNAPSHOT.war">
+    <root id="archive" name="springboot-getValue-0.0.1-SNAPSHOT.war">
       <element id="artifact" artifact-name="springboot-getValue:war exploded" />
     </root>
   </artifact>

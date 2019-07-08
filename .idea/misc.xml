@@ -7,6 +7,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-getValue" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-html" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-poi" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-readsql" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-shiro" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-taskjobs" />
@@ -25,6 +26,7 @@
         <option value="$PROJECT_DIR$/springboot-file/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-files/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-poi/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-poi:war">
+    <output-path>$PROJECT_DIR$/springboot-poi/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-poi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-poi-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-poi:war exploded" />
+    </root>
+  </artifact>
+</component>
