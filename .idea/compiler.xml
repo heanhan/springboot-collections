@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
-        <module name="springboot-taskjobs" />
-        <module name="springboot-websocket" />
-        <module name="springboot-fileupload" />
-        <module name="springboot-getValue" />
-        <module name="springboot-web" />
-        <module name="springboot-poi" />
-        <module name="springboot-readsql" />
-        <module name="springboot-html" />
         <module name="springboot-files" />
-        <module name="springboot-common" />
-        <module name="springboot-shiro" />
+        <module name="springboot-websocket" />
+        <module name="demo" />
+        <module name="springboot-html" />
+        <module name="springboot-web" />
         <module name="springboot-mybatis" />
+        <module name="springboot-getValue" />
+        <module name="springboot-fileupload" />
+        <module name="springboot-httpclient" />
+        <module name="springboot-taskjobs" />
+        <module name="springboot-poi" />
+        <module name="springboot-socket" />
+        <module name="springboot-common" />
+        <module name="springboot-readsql" />
+        <module name="springboot-shiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,10 +32,12 @@
       <module name="springboot-fileupload" target="1.8" />
       <module name="springboot-getValue" target="1.8" />
       <module name="springboot-html" target="1.8" />
+      <module name="springboot-httpclient" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-poi" target="1.8" />
       <module name="springboot-readsql" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
+      <module name="springboot-socket" target="1.8" />
       <module name="springboot-taskjobs" target="1.8" />
       <module name="springboot-web" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
@@ -48,10 +52,12 @@
       <module name="springboot-fileupload" options="-parameters" />
       <module name="springboot-getValue" options="-parameters" />
       <module name="springboot-html" options="-parameters" />
+      <module name="springboot-httpclient" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-poi" options="-parameters" />
       <module name="springboot-readsql" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
+      <module name="springboot-socket" options="-parameters" />
       <module name="springboot-taskjobs" options="-parameters" />
       <module name="springboot-web" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
