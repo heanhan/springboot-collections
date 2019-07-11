@@ -16,6 +16,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-taskjobs" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-web" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-websocket" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-xml" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -33,6 +34,7 @@
         <option value="$PROJECT_DIR$/springboot-socket/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-httpclient/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-ftp-jsch/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-xml/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -7,22 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
-        <module name="springboot-ftp-jsch" />
-        <module name="springboot-poi" />
-        <module name="springboot-mybatis" />
-        <module name="springboot-fileupload" />
-        <module name="springboot-getValue" />
         <module name="springboot-socket" />
-        <module name="springboot-taskjobs" />
-        <module name="springboot-httpclient" />
-        <module name="springboot-html" />
-        <module name="springboot-readsql" />
         <module name="springboot-websocket" />
-        <module name="springboot-shiro" />
         <module name="springboot-common" />
+        <module name="demo" />
+        <module name="springboot-xml" />
+        <module name="springboot-html" />
         <module name="springboot-web" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-getValue" />
+        <module name="springboot-fileupload" />
+        <module name="springboot-taskjobs" />
         <module name="springboot-files" />
+        <module name="springboot-poi" />
+        <module name="springboot-httpclient" />
+        <module name="springboot-ftp-jsch" />
+        <module name="springboot-readsql" />
+        <module name="springboot-shiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -44,6 +45,7 @@
       <module name="springboot-taskjobs" target="1.8" />
       <module name="springboot-web" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
+      <module name="springboot-xml" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -65,6 +67,7 @@
       <module name="springboot-taskjobs" options="-parameters" />
       <module name="springboot-web" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
+      <module name="springboot-xml" options="-parameters" />
     </option>
   </component>
 </project>

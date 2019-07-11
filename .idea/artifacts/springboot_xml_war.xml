@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-xml:war">
+    <output-path>$PROJECT_DIR$/springboot-xml/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-xml</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-xml-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-xml:war exploded" />
+    </root>
+  </artifact>
+</component>
