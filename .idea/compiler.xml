@@ -2,25 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-files" />
-        <module name="springboot-websocket" />
         <module name="demo" />
-        <module name="springboot-html" />
-        <module name="springboot-web" />
-        <module name="springboot-mybatis" />
-        <module name="springboot-getValue" />
-        <module name="springboot-fileupload" />
-        <module name="springboot-httpclient" />
-        <module name="springboot-taskjobs" />
+        <module name="springboot-ftp-jsch" />
         <module name="springboot-poi" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-fileupload" />
+        <module name="springboot-getValue" />
         <module name="springboot-socket" />
-        <module name="springboot-common" />
+        <module name="springboot-taskjobs" />
+        <module name="springboot-httpclient" />
+        <module name="springboot-html" />
         <module name="springboot-readsql" />
+        <module name="springboot-websocket" />
         <module name="springboot-shiro" />
+        <module name="springboot-common" />
+        <module name="springboot-web" />
+        <module name="springboot-files" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +32,7 @@
       <module name="springboot-file" target="1.8" />
       <module name="springboot-files" target="1.8" />
       <module name="springboot-fileupload" target="1.8" />
+      <module name="springboot-ftp-jsch" target="1.8" />
       <module name="springboot-getValue" target="1.8" />
       <module name="springboot-html" target="1.8" />
       <module name="springboot-httpclient" target="1.8" />
@@ -50,6 +53,7 @@
       <module name="springboot-file" options="-parameters" />
       <module name="springboot-files" options="-parameters" />
       <module name="springboot-fileupload" options="-parameters" />
+      <module name="springboot-ftp-jsch" options="-parameters" />
       <module name="springboot-getValue" options="-parameters" />
       <module name="springboot-html" options="-parameters" />
       <module name="springboot-httpclient" options="-parameters" />

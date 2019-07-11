@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-ftp-jsch:war">
+    <output-path>$PROJECT_DIR$/springboot-ftp-jsch/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-ftp-jsch</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-ftp-jsch-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-ftp-jsch:war exploded" />
+    </root>
+  </artifact>
+</component>

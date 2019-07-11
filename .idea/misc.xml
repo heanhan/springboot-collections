@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-file" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-files" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-fileupload" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-ftp-jsch" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-getValue" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-html" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-httpclient" />
@@ -31,6 +32,7 @@
         <option value="$PROJECT_DIR$/springboot-poi/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-socket/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-ftp-jsch/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
