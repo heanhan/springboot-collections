@@ -22,9 +22,9 @@ public class HttpRequestInterceptorConfig extends WebMvcConfigurationSupport {
         //注册连接器
         InterceptorRegistration interceptorRegistration = registry.addInterceptor(new HttpRequestIntercepter());
         //配置拦截的拦截路径
-        interceptorRegistration.addPathPatterns("/**");
+        interceptorRegistration.addPathPatterns("/requestXml");
         //配置不拦截的路径
-        interceptorRegistration.excludePathPatterns("/");
+//        interceptorRegistration.excludePathPatterns("/");
 
     }
 

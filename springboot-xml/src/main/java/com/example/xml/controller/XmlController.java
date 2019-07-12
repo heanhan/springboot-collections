@@ -1,37 +1,35 @@
-package com.example.xml.intercepter;
+package com.example.xml.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.servlet.HandlerInterceptor;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
  * @author : zhaojh
  * @date : 2019-07-11
- * @function : 请求的拦截器
+ * @function :  接收报文请求
  */
+
+@RestController
+@RequestMapping(value="/requestXml")
 @Slf4j
-public class HttpRequestIntercepter implements HandlerInterceptor {
+public class XmlController {
+
 
     /**
-     *
-     * @param request  请求
-     * @param response 响应
-     * @param handler  处理器
-     * @return
-     * @throws Exception
+     * 请求的拦截xml
      */
-    @Override
-    public  boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
-            throws Exception {
 
-        log.info("进入拦截器内部，开始拦截。。。。");
+    @PostMapping(value="/postXml")
+    public void postXml(HttpServletRequest request) throws IOException {
+        log.info("进入controller....");
         log.info("请求的ip:"+request.getRemoteAddr()+"请求的方法："+request.getMethod());
 
         int len = request.getContentLength();
@@ -43,14 +41,10 @@ public class HttpRequestIntercepter implements HandlerInterceptor {
         //读取HTTP请求内容
         String buffer = null;
         StringBuffer sb = new StringBuffer();
-
-        while (br.readLine() != null) {
+        while ((buffer = br.readLine()) != null) {
             //在页面中显示读取到的请求参数
             sb.append(buffer+"\n");
         }
         System.out.println("接收post发送数据:\n"+sb.toString().trim());
-
-
-        return true;
     }
 }
