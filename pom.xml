@@ -30,6 +30,13 @@
         <module>springboot-html</module>
         <module>springboot-web</module>
         <module>springboot-poi</module>
+        <module>springboot-mongodb</module>
+        <module>springboot-redis</module>
+        <module>springboot-httpclient</module>
+        <module>springboot-ftp-jsch</module>
+        <module>springboot-socket</module>
+        <module>springboot-xml</module>
+        <module>springboot-mycat</module>
     </modules>
     <dependencies>
 

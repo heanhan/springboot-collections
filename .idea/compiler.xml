@@ -12,10 +12,12 @@
         <module name="demo" />
         <module name="springboot-readsql" />
         <module name="springboot-ftp-jsch" />
+        <module name="springboot-mycat" />
         <module name="springboot-xml" />
         <module name="springboot-html" />
         <module name="springboot-mongodb" />
         <module name="springboot-web" />
+        <module name="springboot-redis" />
         <module name="springboot-mybatis" />
         <module name="springboot-getValue" />
         <module name="springboot-fileupload" />
@@ -40,8 +42,10 @@
       <module name="springboot-httpclient" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-mycat" target="1.8" />
       <module name="springboot-poi" target="1.8" />
       <module name="springboot-readsql" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-socket" target="1.8" />
       <module name="springboot-taskjobs" target="1.8" />
@@ -63,8 +67,10 @@
       <module name="springboot-httpclient" options="-parameters" />
       <module name="springboot-mongodb" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-mycat" options="-parameters" />
       <module name="springboot-poi" options="-parameters" />
       <module name="springboot-readsql" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-socket" options="-parameters" />
       <module name="springboot-taskjobs" options="-parameters" />

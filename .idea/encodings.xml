@@ -11,8 +11,10 @@
     <file url="file://$PROJECT_DIR$/springboot-httpclient" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mycat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-poi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-readsql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-shiro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-socket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-taskjobs" charset="UTF-8" />
