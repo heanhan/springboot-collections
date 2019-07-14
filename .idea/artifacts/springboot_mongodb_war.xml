@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-mongodb:war">
+    <output-path>$PROJECT_DIR$/springboot-mongodb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-mongodb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-mongodb-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-mongodb:war exploded" />
+    </root>
+  </artifact>
+</component>
