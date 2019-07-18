@@ -32,16 +32,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.9.3" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.26" />
-          <element id="library" level="project" name="Maven: io.lettuce:lettuce-core:5.1.7.RELEASE" />
-          <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.36.Final" />
-          <element id="library" level="project" name="Maven: io.netty:netty-handler:4.1.36.Final" />
-          <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.36.Final" />
-          <element id="library" level="project" name="Maven: io.netty:netty-codec:4.1.36.Final" />
-          <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.36.Final" />
-          <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.36.Final" />
-          <element id="library" level="project" name="Maven: io.projectreactor:reactor-core:3.2.10.RELEASE" />
-          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.6.2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9" />
