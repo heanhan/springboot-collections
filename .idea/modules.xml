@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-getValue/demo.iml" filepath="$PROJECT_DIR$/springboot-getValue/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-collections.iml" filepath="$PROJECT_DIR$/springboot-collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-common/springboot-common.iml" filepath="$PROJECT_DIR$/springboot-common/springboot-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-crossorigin/springboot-crossorigin.iml" filepath="$PROJECT_DIR$/springboot-crossorigin/springboot-crossorigin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-files/springboot-files.iml" filepath="$PROJECT_DIR$/springboot-files/springboot-files.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-fileupload/springboot-fileupload.iml" filepath="$PROJECT_DIR$/springboot-fileupload/springboot-fileupload.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-ftp-jsch/springboot-ftp-jsch.iml" filepath="$PROJECT_DIR$/springboot-ftp-jsch/springboot-ftp-jsch.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" filepath="$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-pdf/springboot-pdf.iml" filepath="$PROJECT_DIR$/springboot-pdf/springboot-pdf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-poi/springboot-poi.iml" filepath="$PROJECT_DIR$/springboot-poi/springboot-poi.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-readsql/springboot-readsql.iml" filepath="$PROJECT_DIR$/springboot-readsql/springboot-readsql.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />

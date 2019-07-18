@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-crossorigin:war">
+    <output-path>$PROJECT_DIR$/springboot-crossorigin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-crossorigin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-crossorigin-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-crossorigin:war exploded" />
+    </root>
+  </artifact>
+</component>

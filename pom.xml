@@ -37,6 +37,8 @@
         <module>springboot-socket</module>
         <module>springboot-xml</module>
         <module>springboot-mycat</module>
+        <module>springboot-pdf</module>
+        <module>springboot-crossorigin</module>
     </modules>
     <dependencies>
 
