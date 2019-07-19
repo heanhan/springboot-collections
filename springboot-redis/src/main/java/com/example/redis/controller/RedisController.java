@@ -2,6 +2,7 @@ package com.example.redis.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -33,17 +34,14 @@ public class RedisController {
      * @Import({ LettuceConnectionConfiguration.class, JedisConnectionConfiguration.class })
      * public class RedisAutoConfiguration {
      *     @Bean
-     *     @ConditionalOnMissingBean(name = "redisTemplate")
-     *     public RedisTemplate<Object, Object> redisTemplate(
-     *             RedisConnectionFactory redisConnectionFactory) throws UnknownHostException {
+     *     @ConditionalOnMissingBean(name = "redisTemplate") RedisConnectionFactory redisConnectionFactory) throws UnknownHostException {
      *         RedisTemplate<Object, Object> template = new RedisTemplate<>();
      *         template.setConnectionFactory(redisConnectionFactory);
      *         return template;
      *     }
      *     @Bean
      *     @ConditionalOnMissingBean
-     *     public StringRedisTemplate stringRedisTemplate(
-     *             RedisConnectionFactory redisConnectionFactory) throws UnknownHostException {
+     *     public StringRedisTemplate stringRedisTemplate( RedisConnectionFactory redisConnectionFactory) throws UnknownHostException {
      *         StringRedisTemplate template = new StringRedisTemplate();
      *         template.setConnectionFactory(redisConnectionFactory);
      *         return template;
@@ -55,6 +53,14 @@ public class RedisController {
 
 
     @Autowired
-    private RedisTemplate redisTemplate;
+    private RedisTemplate<String,Object> redisTemplate;
+
+    @PostMapping(value="/addUserInfo")
+    public String addUserInfo(){
+
+        return null;
+    }
+
+
 
 }
