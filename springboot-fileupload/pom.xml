@@ -11,9 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>springboot-fileupload</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
     <name>springboot-fileupload</name>
-    <description>fileupload project for Spring Boot</description>
+    <description>springboot-fileupload project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -41,5 +40,4 @@
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
     </dependencies>
-
 </project>

@@ -8,26 +8,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-files" />
+        <module name="springboot-httpclient" />
         <module name="springboot-websocket" />
         <module name="springboot-pdf" />
         <module name="demo" />
-        <module name="springboot-readsql" />
-        <module name="springboot-ftp-jsch" />
         <module name="springboot-mycat" />
-        <module name="springboot-xml" />
+        <module name="springboot-common" />
         <module name="springboot-html" />
         <module name="springboot-mongodb" />
         <module name="springboot-web" />
-        <module name="springboot-socket" />
-        <module name="springboot-mybatis" />
-        <module name="springboot-getValue" />
-        <module name="springboot-fileupload" />
         <module name="springboot-crossorigin" />
-        <module name="springboot-redis" />
         <module name="springboot-poi" />
-        <module name="springboot-httpclient" />
-        <module name="springboot-common" />
+        <module name="springboot-getValue" />
+        <module name="springboot-xml" />
+        <module name="springboot-fileupload" />
         <module name="springboot-taskjobs" />
+        <module name="springboot-redis" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-socket" />
+        <module name="springboot-ftp-jsch" />
+        <module name="springboot-readsql" />
         <module name="springboot-shiro" />
       </profile>
     </annotationProcessing>

@@ -34,7 +34,6 @@
         <option value="$PROJECT_DIR$/springboot-web/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-file/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-files/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-fileupload/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-poi/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-socket/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-httpclient/pom.xml" />
@@ -45,6 +44,7 @@
         <option value="$PROJECT_DIR$/springboot-mycat/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-pdf/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-crossorigin/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-fileupload/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
