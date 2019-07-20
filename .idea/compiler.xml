@@ -12,6 +12,7 @@
         <module name="springboot-websocket" />
         <module name="springboot-pdf" />
         <module name="demo" />
+        <module name="sms-spring-boot-starter" />
         <module name="springboot-mycat" />
         <module name="springboot-common" />
         <module name="springboot-html" />
@@ -33,6 +34,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
+      <module name="sms-spring-boot-starter" target="1.8" />
       <module name="springboot-collections" target="1.8" />
       <module name="springboot-common" target="1.8" />
       <module name="springboot-crossorigin" target="1.8" />
@@ -61,6 +63,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="sms-spring-boot-starter" options="-parameters" />
       <module name="springboot-common" options="" />
       <module name="springboot-crossorigin" options="-parameters" />
       <module name="springboot-file" options="-parameters" />

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-getValue/demo.iml" filepath="$PROJECT_DIR$/springboot-getValue/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sms-spring-boot-starter/sms-spring-boot-starter.iml" filepath="$PROJECT_DIR$/sms-spring-boot-starter/sms-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-collections.iml" filepath="$PROJECT_DIR$/springboot-collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-common/springboot-common.iml" filepath="$PROJECT_DIR$/springboot-common/springboot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-crossorigin/springboot-crossorigin.iml" filepath="$PROJECT_DIR$/springboot-crossorigin/springboot-crossorigin.iml" />
