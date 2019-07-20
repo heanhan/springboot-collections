@@ -8,27 +8,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-files" />
-        <module name="springboot-httpclient" />
+        <module name="springboot-jpa" />
         <module name="springboot-websocket" />
         <module name="springboot-pdf" />
         <module name="demo" />
+        <module name="springboot-mybatis" />
         <module name="sms-spring-boot-starter" />
+        <module name="springboot-ftp-jsch" />
         <module name="springboot-mycat" />
-        <module name="springboot-common" />
+        <module name="springboot-socket" />
         <module name="springboot-html" />
         <module name="springboot-mongodb" />
         <module name="springboot-web" />
         <module name="springboot-crossorigin" />
-        <module name="springboot-poi" />
+        <module name="springboot-readsql" />
         <module name="springboot-getValue" />
         <module name="springboot-xml" />
         <module name="springboot-fileupload" />
-        <module name="springboot-taskjobs" />
         <module name="springboot-redis" />
-        <module name="springboot-mybatis" />
-        <module name="springboot-socket" />
-        <module name="springboot-ftp-jsch" />
-        <module name="springboot-readsql" />
+        <module name="springboot-poi" />
+        <module name="springboot-httpclient" />
+        <module name="springboot-common" />
+        <module name="springboot-taskjobs" />
         <module name="springboot-shiro" />
       </profile>
     </annotationProcessing>
@@ -45,6 +46,7 @@
       <module name="springboot-getValue" target="1.8" />
       <module name="springboot-html" target="1.8" />
       <module name="springboot-httpclient" target="1.8" />
+      <module name="springboot-jpa" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-mycat" target="1.8" />
@@ -73,6 +75,7 @@
       <module name="springboot-getValue" options="-parameters" />
       <module name="springboot-html" options="-parameters" />
       <module name="springboot-httpclient" options="-parameters" />
+      <module name="springboot-jpa" options="-parameters" />
       <module name="springboot-mongodb" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-mycat" options="-parameters" />

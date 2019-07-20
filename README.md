@@ -66,3 +66,5 @@ Maven打包过程的问题
     20、springboot-websocket : 整合websocket的使用。
     
     21、springboot-xml ：springboot学习xml的读取与解析。
+    
+    22、springboot-jpa : 基于spring-data-jpa 在springboot 下学习  jpa 知识。

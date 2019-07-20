@@ -9,6 +9,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-getValue" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-html" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-httpclient" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-jpa" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mongodb" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mycat" />
@@ -45,6 +46,7 @@
         <option value="$PROJECT_DIR$/springboot-pdf/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-crossorigin/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jpa/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
