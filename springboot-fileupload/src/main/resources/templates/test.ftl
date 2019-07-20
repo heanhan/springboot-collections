@@ -16,7 +16,7 @@
 </head>
 <body>
 <h1>图片上传Demo</h1>
-<form action="fileUpload" method="post" enctype="multipart/form-data">
+<form action="fileUpload" method="post" enctype="multipart/form-data" >
     <p>选择文件: <input type="file" name="fileName"/></p>
     <p><input type="submit" value="提交"/></p>
 </form>
