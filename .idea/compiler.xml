@@ -23,6 +23,7 @@
         <module name="springboot-crossorigin" />
         <module name="springboot-readsql" />
         <module name="springboot-getValue" />
+        <module name="springboot-interceptor" />
         <module name="springboot-xml" />
         <module name="springboot-fileupload" />
         <module name="springboot-redis" />
@@ -46,6 +47,7 @@
       <module name="springboot-getValue" target="1.8" />
       <module name="springboot-html" target="1.8" />
       <module name="springboot-httpclient" target="1.8" />
+      <module name="springboot-interceptor" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
@@ -75,6 +77,7 @@
       <module name="springboot-getValue" options="-parameters" />
       <module name="springboot-html" options="-parameters" />
       <module name="springboot-httpclient" options="-parameters" />
+      <module name="springboot-interceptor" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />
       <module name="springboot-mongodb" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />

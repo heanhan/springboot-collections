@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-interceptor:war">
+    <output-path>$PROJECT_DIR$/springboot-interceptor/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-interceptor</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-interceptor-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-interceptor:war exploded" />
+    </root>
+  </artifact>
+</component>

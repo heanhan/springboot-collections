@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-getValue/springboot-getValue.iml" filepath="$PROJECT_DIR$/springboot-getValue/springboot-getValue.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-html/springboot-html.iml" filepath="$PROJECT_DIR$/springboot-html/springboot-html.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-httpclient/springboot-httpclient.iml" filepath="$PROJECT_DIR$/springboot-httpclient/springboot-httpclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-interceptor/springboot-interceptor.iml" filepath="$PROJECT_DIR$/springboot-interceptor/springboot-interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
