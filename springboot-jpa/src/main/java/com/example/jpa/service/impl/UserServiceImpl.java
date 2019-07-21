@@ -72,8 +72,8 @@ public class UserServiceImpl implements UserService {
      * @return int
      */
     @Override
-    public int removeUserBeachArray(int[] userIds){
-        return userDao.removeUserBeachArray(userIds);
+    public int removeUserBeachArray(Integer[] userIds){
+        return userDao.removeUserBeachArray(Arrays.asList(userIds));
     }
 
 

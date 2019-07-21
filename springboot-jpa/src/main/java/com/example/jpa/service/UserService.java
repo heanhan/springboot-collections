@@ -44,7 +44,7 @@ public interface UserService {
      * @param userIds 用户id 的id 整型数组
      * @return int
      */
-    int removeUserBeachArray(int[] userIds);
+    int removeUserBeachArray(Integer[] userIds);
 
 
     /**

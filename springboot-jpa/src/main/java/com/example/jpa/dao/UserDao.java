@@ -24,6 +24,9 @@ import java.util.List;
 public interface UserDao extends JpaRepository<User, Integer>, JpaSpecificationExecutor<User> {
 
     /**
+     *
+
+     *
      * 封装的一些数据库操作方法，也可以自定义。
      *     @Modifying 用在 delete、update、add 方法上; select 则不用加
      *     @Query(value = "",nativeQuery = true)
@@ -32,8 +35,7 @@ public interface UserDao extends JpaRepository<User, Integer>, JpaSpecificationE
      *          nativeQuery ：是boolean 类型：
      *              true:表示：使用标准的sql 语法
      *              false(默认)： 采用jpql 语法，即通过查询的 字段是以实体为参考,不支持 * 。
-     *
-     *
+
      */
 
     /** ------------------------------------------------------------ 分隔符 ----------------------------------------------------------------------------------*/
@@ -45,11 +47,10 @@ public interface UserDao extends JpaRepository<User, Integer>, JpaSpecificationE
      * @return int
      */
     @Modifying
-    @Query(value = "delete from zjh_user where  user_id in ?1 ", nativeQuery = true)
+    @Query(value = "delete from zjh_user where  user_id in ( ?1) ", nativeQuery = true)
 //sql 语法
 //  @Query(value = "delete from User where userId in ?1 ")  //jpql 语法，通过对象实体来操作，映射到数据库字段
-    int removeUserBeachArray(int[] userIds);
-
+    int removeUserBeachArray(List<Integer> userIds);//目前尚没有好的办法直接传数组，解决方案：将数组转换为 List 集合
 
     /**
      * 删除用户  执行自定义语句
@@ -69,7 +70,7 @@ public interface UserDao extends JpaRepository<User, Integer>, JpaSpecificationE
      * @return  Boolean  判断是否删除成功
      */
     @Modifying
-    @Query(value = "delete from zjh_user where user_id in ?1 ",nativeQuery = true)
+    @Query(value = "delete from zjh_user where user_id in (?1) ",nativeQuery = true)
     int removeUserByArry(int[] ids);
 
 
@@ -79,7 +80,7 @@ public interface UserDao extends JpaRepository<User, Integer>, JpaSpecificationE
      * @return  Boolean
      */
     @Modifying
-    @Query(value = "delete from zjh_user where user_id in ?1 ",nativeQuery = true)
+    @Query(value = "delete from zjh_user where user_id in (?1) ",nativeQuery = true)
     int removeUserBeachList(List<Integer> userIds);
 
 
@@ -106,6 +107,6 @@ public interface UserDao extends JpaRepository<User, Integer>, JpaSpecificationE
      * @param userName
      * @return  List<User>
      */
-    @Query(value = "from User where userName in ?1 ")  //使用jpqa  语法
+    @Query(value = "from User where userName in (?1) ")  //使用jpqa  语法  补充：in 后面的括号可以加，也可以不加
     List<User> findByUserNameRange(List<String> userName);
 }

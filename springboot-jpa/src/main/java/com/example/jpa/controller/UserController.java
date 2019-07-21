@@ -4,6 +4,7 @@ import com.example.common.model.Result;
 import com.example.common.model.StatusCode;
 import com.example.jpa.pojo.User;
 import com.example.jpa.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -19,6 +20,7 @@ import java.util.*;
  * @function :
  */
 
+@Slf4j
 @RestController
 @RequestMapping(value = "/jpa")
 public class UserController {
@@ -57,7 +59,7 @@ public class UserController {
             User user =new User();
             user.setUserName("测试人"+i);//姓名
             user.setPassword("123456");//密码
-            user.setGender((rand.nextInt(2)-1)+""); //0 代表 男，1 代表女。
+            user.setGender((rand.nextInt(2))+""); //0 代表 男，1 代表女。
             user.setHobby("爱好"+i);//爱好
             user.setDescInfo("这个一个自我介绍,我是测试人"+i);
             user.setCreateTime(new Date());//创建时间
@@ -78,6 +80,7 @@ public class UserController {
      */
     @DeleteMapping(value = "/removeUser")
     public Result removeUser(int userId){
+        log.info("调试就怕自定义批量删除....数组");
         userService.removeUser(userId);
         return new Result(true,StatusCode.OK," is success ！");
     }
@@ -89,7 +92,7 @@ public class UserController {
      * @return Result
      */
     @DeleteMapping(value="/removeUserBeachArray")
-    public Result removeUserBeachArray(int[] userIds){
+    public Result removeUserBeachArray(Integer[] userIds){
         int i = userService.removeUserBeachArray(userIds);
         if(i>0){
             return new Result(true,StatusCode.OK," is success ！");
@@ -185,9 +188,9 @@ public class UserController {
     public Result updateUserInfo(User user){
         User user1 = userService.updateUserInfo(user);
         if(user1.getUserId()!=null){
-            return new Result(true,StatusCode.OK," is success ！");
+            return new Result(true,StatusCode.OK," update is success ！");
         }
-        return new Result(true,StatusCode.ERROR," is failure ！");
+        return new Result(true,StatusCode.ERROR," update is failure ！");
     }
 
 
@@ -200,9 +203,9 @@ public class UserController {
     public Result updateUserInfoBeatch(List<User> userList){
         List<User> users = userService.updateUserInfoBeatch(userList);
         if(users.size()>0){
-            return new Result(true,StatusCode.OK," is success ！");
+            return new Result(true,StatusCode.OK,"update is success ！");
         }
-        return new Result(true,StatusCode.ERROR," is failure ！");
+        return new Result(true,StatusCode.ERROR," update is failure ！");
     }
 
 
@@ -215,9 +218,9 @@ public class UserController {
     public Result findUserInfo(int userId){
         User userInfo = userService.findUserInfo(userId);
         if(userInfo.getUserId()!=null){
-            return new Result(true,StatusCode.OK," is success !",userInfo);
+            return new Result(true,StatusCode.OK,"search  is success !",userInfo);
         }
-        return new Result(true,StatusCode.ERROR," is failure ！");
+        return new Result(true,StatusCode.ERROR," search the data is null !");
     }
 
 
@@ -230,9 +233,9 @@ public class UserController {
     public Result findByUserName(String userName){
         List<User> byUserNameList = userService.findByUserName(userName);
         if(byUserNameList.size()>0){
-            return new Result(true,StatusCode.OK," is success !",byUserNameList);
+            return new Result(true,StatusCode.OK,"search is success !",byUserNameList);
         }
-        return new Result(true,StatusCode.ERROR," is failure ！");
+        return new Result(true,StatusCode.ERROR,"search  the data is null !");
     }
 
 
@@ -244,9 +247,9 @@ public class UserController {
     public Result findAllUser(){
         List<User> allUser = userService.findAllUser();
         if(allUser.size()>0){
-            return new Result(true,StatusCode.OK," is success !",allUser);
+            return new Result(true,StatusCode.OK,"search is success !",allUser);
         }
-        return new Result(true,StatusCode.ERROR," is failure ！");
+        return new Result(true,StatusCode.ERROR,"search the data is null !");
     }
 
 
@@ -256,11 +259,11 @@ public class UserController {
      * @param pageSize 分页大小
      * @return Result
      */
-    @GetMapping(value="/findAllUser")
+    @GetMapping(value="/findAllUserSort")
     public Result findAllUser(String pageNum,String pageSize){
         PageRequest pageRequest =PageRequest.of(Integer.parseInt(pageNum)-1,Integer.parseInt(pageSize));
         Page<User> allUser = userService.findAllUser(pageRequest);
-        return new Result(true,StatusCode.OK," is success ！",allUser);
+        return new Result(true,StatusCode.OK,"search is success ！",allUser);
     }
 
 
@@ -275,7 +278,7 @@ public class UserController {
     public Result findAllUserByName(String userName,String pageNum,String pageSize){
         PageRequest pageRequest =PageRequest.of(Integer.parseInt(pageNum)-1,Integer.parseInt(pageSize));
         Page<User> allUser = userService.findAllUserByName(userName, pageRequest);
-        return new Result(true,StatusCode.OK," is success ！",allUser);
+        return new Result(true,StatusCode.OK,"search is success ！",allUser);
     }
 
 
@@ -290,37 +293,47 @@ public class UserController {
         String pageSize = param.get("pageSize");
         PageRequest pageRequest =PageRequest.of(Integer.parseInt(pageNum)-1,Integer.parseInt(pageSize));
         Page<User> allUserByDynamicCondition = userService.findAllUserByDynamicCondition(param, pageRequest);
-        return new Result(true,StatusCode.OK," is success ！",allUserByDynamicCondition);
+        return new Result(true,StatusCode.OK,"search is success ！",allUserByDynamicCondition);
     }
 
 
     /**
      * 查询 ： 遵守JPA 命名规范查询
-     * @param userName
      * @return Result
      */
     @GetMapping(value="/byUserNameIn")
-    public Result findByUserNameIn(List<String> userName){
+    public Result findByUserNameIn(){
+        List<String> userName = new ArrayList<>();
+        userName.add("测试人1");
+        userName.add("测试人2");
+        userName.add("测试人3");
+        userName.add("测试人4");
+        userName.add("测试人5");
         List<User> byUserNameIn = userService.findByUserNameIn(userName);
         if(byUserNameIn.size()>0){
-            return new Result(true,StatusCode.OK," is success ！",byUserNameIn);
+            return new Result(true,StatusCode.OK,"search is success ！",byUserNameIn);
         }
-        return new Result(false,StatusCode.ERROR," is failure !");
+        return new Result(false,StatusCode.ERROR,"search the data is null !");
     }
 
 
     /**
      * 查询 ：  自定义 使用关键字 IN 参数为 List
-     * @param userName
      * @return Result
      */
     @GetMapping(value = "/findByUserNameRange")
-    public Result findByUserNameRange(List<String> userName){
-        List<User> byUserNameRange = userService.findByUserNameRange(userName);
+    public Result findByUserNameRange(){
+        List<String> userNames = new ArrayList<>();
+        userNames.add("测试人4");
+        userNames.add("测试人5");
+        userNames.add("测试人6");
+        userNames.add("测试人7");
+        userNames.add("测试人8");
+        List<User> byUserNameRange = userService.findByUserNameRange(userNames);
         if(byUserNameRange.size()>0){
-            return new Result(true,StatusCode.OK," is success ！",byUserNameRange);
+            return new Result(true,StatusCode.OK,"search is success ！",byUserNameRange);
         }
-        return new Result(false,StatusCode.ERROR," is failure !");
+        return new Result(false,StatusCode.ERROR,"search the data is null !");
     }
 
 

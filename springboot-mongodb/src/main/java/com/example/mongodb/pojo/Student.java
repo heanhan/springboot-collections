@@ -6,6 +6,7 @@ package com.example.mongodb.pojo;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiParam;
+import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
@@ -16,7 +17,7 @@ import java.util.Date;
  * @author Thunisoft
  *
  */
-//@Data  没生效性。暂时注释掉，
+@Data  //没生效性。暂时注释掉，
 @Document(value="mongo-student")
 //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
 public class Student implements Serializable{
@@ -61,66 +62,5 @@ public class Student implements Serializable{
 		this.score = score;
 		this.birthday = birthday;
 	}
-	public int getStudentId() {
-		return studentId;
-	}
-	public void setStudentId(int studentId) {
-		this.studentId = studentId;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getSex() {
-		return sex;
-	}
-	public void setSex(String sex) {
-		this.sex = sex;
-	}
-	public double getHight() {
-		return hight;
-	}
-	public void setHight(double hight) {
-		this.hight = hight;
-	}
-	public int getAge() {
-		return age;
-	}
-	public void setAge(int age) {
-		this.age = age;
-	}
-	public int getClassGrade() {
-		return classGrade;
-	}
-	public void setClassGrade(int classGrade) {
-		this.classGrade = classGrade;
-	}
-	public String getClassName() {
-		return className;
-	}
-	public void setClassName(String className) {
-		this.className = className;
-	}
-	public double getScore() {
-		return score;
-	}
-	public void setScore(double score) {
-		this.score = score;
-	}
-	
-	public Date getBirthday() {
-		return birthday;
-	}
-	public void setBirthday(Date birthday) {
-		this.birthday = birthday;
-	}
-	@Override
-	public String toString() {
-		return "Student [studentId=" + studentId + ", name=" + name + ", sex=" + sex + ", hight=" + hight + ", age="
-				+ age + ", classGrade=" + classGrade + ", className=" + className + ", score=" + score + ", birthday="
-				+ birthday + "]";
-	}
-	
+
 }

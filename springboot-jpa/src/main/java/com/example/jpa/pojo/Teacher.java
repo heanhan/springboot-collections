@@ -11,7 +11,7 @@ import javax.persistence.Table;
  *                  与专业课的关系，【老师（一）-------->专业课（一）】
  */
 
-@Entity
-@Table(name= "zjh_teacher")
+//@Entity
+//@Table(name= "zjh_teacher")
 public class Teacher {
 }

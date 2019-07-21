@@ -12,8 +12,8 @@ import javax.persistence.*;
  *              与专业课的关系【学生-（一）------->专业课（多）】
  */
 
-@Entity
-@Table(name = "zjh_student")
+//@Entity
+//@Table(name = "zjh_student")
 @Data
 public class Student {
 
