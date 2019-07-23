@@ -4,6 +4,7 @@ package com.example.jpa.service;
 import com.example.jpa.pojo.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 import java.util.Map;
@@ -170,5 +171,13 @@ public interface UserService {
      * @return  List<User>
      */
     List<User> findByUserNameRange(List<String> userName);
+
+    /**
+     * 使用原生的sql进行分页
+     * @param name 姓名
+     * @param pageable 分页数据对象
+     * @return 分页
+     */
+    Page<User> findByFirstNamePage(String name, Pageable pageable);
 
 }

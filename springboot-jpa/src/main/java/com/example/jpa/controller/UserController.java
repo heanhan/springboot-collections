@@ -337,4 +337,21 @@ public class UserController {
     }
 
 
+    /**
+     * 使用原生的sql进行分页
+     * @param name 姓名
+     * @return 分页
+     */
+    @GetMapping(value = "/findByFirstNamePage")
+    public Result findByFirstNamePage(String name){
+
+        Pageable pageable=PageRequest.of(Integer.parseInt("1")-1,Integer.parseInt("10"));
+        Page<User> byFirstNamePage = userService.findByFirstNamePage(name, pageable);
+        if(!byFirstNamePage.isEmpty()){
+            return new Result(true,StatusCode.OK,"search is success ！",byFirstNamePage);
+        }
+        return new Result(false,StatusCode.ERROR,"search the data is null !");
+    }
+
+
 }

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springboot-crossorigin" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-fastDFS" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-file" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-files" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-fileupload" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-ftp-jsch" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-getValue" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-hello" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-html" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-httpclient" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-interceptor" />
@@ -49,6 +51,8 @@
         <option value="$PROJECT_DIR$/springboot-fileupload/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-fastDFS/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-hello/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

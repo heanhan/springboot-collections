@@ -1,6 +1,8 @@
 package com.example.jpa.dao;
 
 import com.example.jpa.pojo.User;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
@@ -109,4 +111,17 @@ public interface UserDao extends JpaRepository<User, Integer>, JpaSpecificationE
      */
     @Query(value = "from User where userName in (?1) ")  //使用jpqa  语法  补充：in 后面的括号可以加，也可以不加
     List<User> findByUserNameRange(List<String> userName);
+
+    /**
+     * 使用原生的sql进行分页
+     * @param name 姓名
+     * @param pageable 分页数据对象
+     * @return 分页
+     *
+     */
+    //注： /* #pageable# */ 必须有，
+    @Query(value = "select * from zjh_user where user_name like %?1%"
+        ,countQuery ="select count(*) from zjh_user where user_name like %?1%"
+        ,nativeQuery = true)
+    Page<User> findByFirstNamePage(String name, Pageable pageable);
 }

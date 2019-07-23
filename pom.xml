@@ -20,6 +20,7 @@
     <modules>
         <module>sms-spring-boot-starter</module>
         <module>springboot-common</module>
+        <module>springboot-hello</module>
         <module>springboot-readsql</module>
         <module>springboot-files</module>
         <module>springboot-fileupload</module>
@@ -41,6 +42,8 @@
         <module>springboot-pdf</module>
         <module>springboot-crossorigin</module>
         <module>springboot-jpa</module>
+        <module>springboot-interceptor</module>
+        <module>springboot-fastDFS</module>
     </modules>
     <dependencies>
 

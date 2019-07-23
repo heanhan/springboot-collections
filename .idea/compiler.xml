@@ -12,25 +12,27 @@
         <module name="springboot-websocket" />
         <module name="springboot-pdf" />
         <module name="demo" />
-        <module name="springboot-mybatis" />
+        <module name="springboot-hello" />
         <module name="sms-spring-boot-starter" />
-        <module name="springboot-ftp-jsch" />
         <module name="springboot-mycat" />
-        <module name="springboot-socket" />
+        <module name="springboot-common" />
         <module name="springboot-html" />
         <module name="springboot-mongodb" />
-        <module name="springboot-web" />
+        <module name="springboot-httpclient" />
         <module name="springboot-crossorigin" />
-        <module name="springboot-readsql" />
-        <module name="springboot-getValue" />
+        <module name="springboot-poi" />
+        <module name="springboot-web" />
         <module name="springboot-interceptor" />
         <module name="springboot-xml" />
+        <module name="springboot-getValue" />
         <module name="springboot-fileupload" />
-        <module name="springboot-redis" />
-        <module name="springboot-poi" />
-        <module name="springboot-httpclient" />
-        <module name="springboot-common" />
         <module name="springboot-taskjobs" />
+        <module name="springboot-redis" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-socket" />
+        <module name="springboot-ftp-jsch" />
+        <module name="springboot-readsql" />
+        <module name="springboot-fastDFS" />
         <module name="springboot-shiro" />
       </profile>
     </annotationProcessing>
@@ -40,11 +42,13 @@
       <module name="springboot-collections" target="1.8" />
       <module name="springboot-common" target="1.8" />
       <module name="springboot-crossorigin" target="1.8" />
+      <module name="springboot-fastDFS" target="1.8" />
       <module name="springboot-file" target="1.8" />
       <module name="springboot-files" target="1.8" />
       <module name="springboot-fileupload" target="1.8" />
       <module name="springboot-ftp-jsch" target="1.8" />
       <module name="springboot-getValue" target="1.8" />
+      <module name="springboot-hello" target="1.8" />
       <module name="springboot-html" target="1.8" />
       <module name="springboot-httpclient" target="1.8" />
       <module name="springboot-interceptor" target="1.8" />
@@ -70,11 +74,13 @@
       <module name="sms-spring-boot-starter" options="-parameters" />
       <module name="springboot-common" options="" />
       <module name="springboot-crossorigin" options="-parameters" />
+      <module name="springboot-fastDFS" options="-parameters" />
       <module name="springboot-file" options="-parameters" />
       <module name="springboot-files" options="-parameters" />
       <module name="springboot-fileupload" options="-parameters" />
       <module name="springboot-ftp-jsch" options="-parameters" />
       <module name="springboot-getValue" options="-parameters" />
+      <module name="springboot-hello" options="-parameters" />
       <module name="springboot-html" options="-parameters" />
       <module name="springboot-httpclient" options="-parameters" />
       <module name="springboot-interceptor" options="-parameters" />

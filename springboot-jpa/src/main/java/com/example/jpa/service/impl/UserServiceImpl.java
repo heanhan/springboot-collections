@@ -6,6 +6,7 @@ import com.example.jpa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Service;
@@ -330,5 +331,16 @@ public class UserServiceImpl implements UserService {
         return userDao.findByUserNameRange(userName);
     }
 
+
+    /**
+     * 使用原生的sql进行分页
+     * @param name 姓名
+     * @param pageable 分页数据对象
+     * @return 分页
+     */
+    @Override
+    public Page<User> findByFirstNamePage(String name, Pageable pageable){
+        return userDao.findByFirstNamePage(name, pageable);
+    }
 
 }

@@ -41,34 +41,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-jetty:2.1.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-servlets:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-continuation:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-webapp:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-xml:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-servlet:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-security:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-server:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-common:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-client:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-client:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-servlet:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:javax-websocket-server-impl:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-annotations:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-plus:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm:7.1" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm-commons:7.1" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm-tree:7.1" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm-analysis:7.1" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:javax-websocket-client-impl:9.4.19.v20190610" />
-          <element id="library" level="project" name="Maven: javax.websocket:javax.websocket-api:1.1" />
-          <element id="library" level="project" name="Maven: org.mortbay.jasper:apache-el:8.5.40" />
           <element id="archive" name="springboot-common-0.0.1-SNAPSHOT.jar">
             <element id="module-output" name="springboot-common" />
           </element>
