@@ -28,8 +28,9 @@ public class Employee {
     @Column(name="salary",columnDefinition="DECIMAL(10,2)")
     private BigDecimal salary;
 
-    @ManyToMany
-    @JoinTable(name="employee_project_inner", //中间表product_id字段
+    @ManyToMany(cascade = {CascadeType.PERSIST}, fetch = FetchType.LAZY)
+    @JoinTable(name="employee_project_inner", //中间表名
+            //中间表product_id字段
             joinColumns={@JoinColumn(name="employee_id",referencedColumnName="id")},
             inverseJoinColumns={@JoinColumn(name="project_id",referencedColumnName="id")}
     )
