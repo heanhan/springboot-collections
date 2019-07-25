@@ -44,6 +44,7 @@
         <module>springboot-jpa</module>
         <module>springboot-interceptor</module>
         <module>springboot-fastDFS</module>
+        <module>springboot-swagger</module>
     </modules>
     <dependencies>
 
