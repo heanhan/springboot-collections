@@ -5,7 +5,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * 学生的实体类
+ * 学生的实体类  与班级是多对一，老师是多对多。
  */
 @Data
 public class Student implements Serializable {
@@ -20,8 +20,7 @@ public class Student implements Serializable {
     private String hobby;//爱好
     private String email;//邮箱
     private String descs;//个人简介
-
-    private String grade;//班级
+    private Grade grade;//班级
 
 
 }

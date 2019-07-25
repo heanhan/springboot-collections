@@ -5,6 +5,7 @@ import com.example.common.model.StatusCode;
 import com.example.common.utils.IdWorker;
 import com.example.mybatis.pojo.Grade;
 import com.example.mybatis.service.IGradeService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+@Api
 @RestController
 @RequestMapping(value="/grade")
 public class GradeController {

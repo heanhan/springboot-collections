@@ -23,7 +23,8 @@ Maven打包过程的问题
 
         方法2：使用命令 mvn install -DskipTests
         或者mvn install -DMaven.test.skip=true
-各个模块的使用清单：
+        
+**各个模块的使用清单：**
 
     1、springboot-common ：springboot 各个功能模块抽取出来的工具类。
     
@@ -73,4 +74,8 @@ Maven打包过程的问题
     
     24、springboot-fastDFS :单间分布式文件系统。是使用dockek+fastDFS组合
     
-    25、shpringboot-hello : 作为springMVC 的各种传参测试。
+    25、springboot-hello : 作为springMVC 的各种传参测试。
+    
+    26、springboot-swagger :使用swagger 。
+    
+    

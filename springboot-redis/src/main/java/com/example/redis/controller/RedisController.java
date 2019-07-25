@@ -1,5 +1,6 @@
 package com.example.redis.controller;
 
+import com.example.redis.utils.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,6 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value="/redis")
 public class RedisController {
     /**
+     *
+     *
      *
      * 注 ：  SpringBoot自动帮我们在容器中生成了一个RedisTemplate和一个StringRedisTemplate。
      *          缺点： 1、这个RedisTemplate的泛型是<Object,Object>，写代码不方便，需要写好多类型转换的代码；我们需要一个泛型为<String,Object>形式的RedisTemplate。
@@ -53,7 +56,9 @@ public class RedisController {
 
 
     @Autowired
-    private RedisTemplate<String,Object> redisTemplate;
+    private RedisUtil redisUtil;
+
+
 
     @PostMapping(value="/addUserInfo")
     public String addUserInfo(){

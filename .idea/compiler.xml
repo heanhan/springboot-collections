@@ -12,26 +12,27 @@
         <module name="springboot-websocket" />
         <module name="springboot-pdf" />
         <module name="demo" />
-        <module name="springboot-hello" />
+        <module name="springboot-swagger" />
+        <module name="springboot-mybatis" />
         <module name="sms-spring-boot-starter" />
+        <module name="springboot-ftp-jsch" />
         <module name="springboot-mycat" />
-        <module name="springboot-common" />
+        <module name="springboot-xml" />
         <module name="springboot-html" />
         <module name="springboot-mongodb" />
-        <module name="springboot-httpclient" />
+        <module name="springboot-socket" />
         <module name="springboot-crossorigin" />
-        <module name="springboot-poi" />
+        <module name="springboot-readsql" />
         <module name="springboot-web" />
         <module name="springboot-interceptor" />
-        <module name="springboot-xml" />
+        <module name="springboot-hello" />
         <module name="springboot-getValue" />
         <module name="springboot-fileupload" />
-        <module name="springboot-taskjobs" />
         <module name="springboot-redis" />
-        <module name="springboot-mybatis" />
-        <module name="springboot-socket" />
-        <module name="springboot-ftp-jsch" />
-        <module name="springboot-readsql" />
+        <module name="springboot-poi" />
+        <module name="springboot-httpclient" />
+        <module name="springboot-common" />
+        <module name="springboot-taskjobs" />
         <module name="springboot-fastDFS" />
         <module name="springboot-shiro" />
       </profile>
@@ -62,6 +63,7 @@
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-socket" target="1.8" />
+      <module name="springboot-swagger" target="1.8" />
       <module name="springboot-taskjobs" target="1.8" />
       <module name="springboot-web" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
@@ -94,6 +96,7 @@
       <module name="springboot-redis" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-socket" options="-parameters" />
+      <module name="springboot-swagger" options="-parameters" />
       <module name="springboot-taskjobs" options="-parameters" />
       <module name="springboot-web" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />

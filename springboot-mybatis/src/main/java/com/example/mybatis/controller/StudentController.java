@@ -45,8 +45,8 @@ public class StudentController {
      * pageSize  每页大小
      * @return
      */
-    @GetMapping(value="/findAllStudent/{pageNum}/{pageSize}")
-    public Result findAllStudent(@PathVariable int pageNum, @PathVariable int pageSize){
+    @GetMapping(value="/findAllStudent")
+    public Result findAllStudent(){
 
         List<Student> allStudent = studentService.findAllStudent();
         return new Result(true,StatusCode.OK,"查询成功",allStudent);
