@@ -2,10 +2,7 @@ package com.example.swagger.pojo;
 
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Date;
 
 /**
@@ -33,9 +30,11 @@ public class Article {
     private String author;//作者
 
     @Column(name = "create_time")
+    @Temporal(TemporalType.TIMESTAMP)//作用帮助java 类机型Date类型进行格式化，
     private Date createTime;//创建时间
 
     @Column(name = "update_time")
+    @Temporal(TemporalType.TIMESTAMP)
     private Date updateTime;//修改时间
 
 }

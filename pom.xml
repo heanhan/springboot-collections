@@ -45,6 +45,7 @@
         <module>springboot-interceptor</module>
         <module>springboot-fastDFS</module>
         <module>springboot-swagger</module>
+        <module>springboot-admin</module>
     </modules>
     <dependencies>
 

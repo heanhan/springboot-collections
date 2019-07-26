@@ -119,3 +119,37 @@
         /* getter/setter */
     }
     
+
+
+
+
+
+##使用springboot与swagger2的结合的start##
+
+    ‘
+    
+        1、pom坐标
+        
+        <dependency>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>1.9.0.RELEASE</version>
+        </dependency>
+        
+        
+        application.properties 中配置
+        
+        swagger.enabled=true //表示是否开启，生产环境需要关闭，测试时打开
+        swagger.title=spring-boot-mybatis module api    //标题
+        swagger.description=Starter for swagger 2.x     //描述
+        swagger.license=Apache License, Version 2.0
+        swagger.licenseUrl=https://www.apache.org/licenses/LICENSE-2.0.html
+        swagger.termsOfServiceUrl=https://github.com/pbw123/spring-boot-demo
+        swagger.contact.name=mqXu
+        swagger.contact.url=https://www.jianshu.com/u/2f60beddf923
+        swagger.contact.email=2635225112@qq.com
+        swagger.base-package=com.springboot.mybatis.controller
+        swagger.base-path=/**
+        swagger.exclude-path=/error, /ops/**
+    
+    ’

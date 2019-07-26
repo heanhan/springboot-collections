@@ -5,6 +5,7 @@ import com.example.swagger.pojo.Article;
 import com.example.swagger.service.ArticleService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,6 +19,7 @@ import java.util.List;
  * @function : 文章的控制器
  */
 
+@Slf4j
 @Api(value = "文章相关的接口")
 @RestController
 @RequestMapping(value = "/swagger")
@@ -92,6 +94,7 @@ public class ArticleController {
     @ApiOperation(value = "查询文章信息 ", notes = "查询   根据id")
     public Article findByArticleId(String articleId) {
         Article article = articleService.findArticleById(articleId);
+        log.info("输出文章内容："+article);
         return article;
     }
 

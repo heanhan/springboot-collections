@@ -12,34 +12,36 @@
         <module name="springboot-websocket" />
         <module name="springboot-pdf" />
         <module name="demo" />
-        <module name="springboot-swagger" />
-        <module name="springboot-mybatis" />
+        <module name="springboot-hello" />
         <module name="sms-spring-boot-starter" />
-        <module name="springboot-ftp-jsch" />
         <module name="springboot-mycat" />
-        <module name="springboot-xml" />
+        <module name="springboot-fastDFS" />
+        <module name="springboot-common" />
         <module name="springboot-html" />
         <module name="springboot-mongodb" />
-        <module name="springboot-socket" />
+        <module name="springboot-httpclient" />
         <module name="springboot-crossorigin" />
-        <module name="springboot-readsql" />
+        <module name="springboot-poi" />
         <module name="springboot-web" />
         <module name="springboot-interceptor" />
-        <module name="springboot-hello" />
+        <module name="springboot-xml" />
         <module name="springboot-getValue" />
         <module name="springboot-fileupload" />
-        <module name="springboot-redis" />
-        <module name="springboot-poi" />
-        <module name="springboot-httpclient" />
-        <module name="springboot-common" />
         <module name="springboot-taskjobs" />
-        <module name="springboot-fastDFS" />
+        <module name="springboot-redis" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-socket" />
+        <module name="springboot-ftp-jsch" />
+        <module name="springboot-readsql" />
+        <module name="springboot-swagger" />
         <module name="springboot-shiro" />
+        <module name="springboot-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="sms-spring-boot-starter" target="1.8" />
+      <module name="springboot-admin" target="1.8" />
       <module name="springboot-collections" target="1.8" />
       <module name="springboot-common" target="1.8" />
       <module name="springboot-crossorigin" target="1.8" />
@@ -74,6 +76,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="sms-spring-boot-starter" options="-parameters" />
+      <module name="springboot-admin" options="-parameters" />
       <module name="springboot-common" options="" />
       <module name="springboot-crossorigin" options="-parameters" />
       <module name="springboot-fastDFS" options="-parameters" />
