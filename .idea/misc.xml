@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springboot-admin" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-commandlinerunner" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-crossorigin" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-fastDFS" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-file" />
@@ -57,6 +58,7 @@
         <option value="$PROJECT_DIR$/springboot-hello/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-swagger/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-commandlinerunner/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

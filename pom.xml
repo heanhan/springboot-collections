@@ -46,6 +46,7 @@
         <module>springboot-fastDFS</module>
         <module>springboot-swagger</module>
         <module>springboot-admin</module>
+        <module>springboot-commandlinerunner</module>
     </modules>
     <dependencies>
 
