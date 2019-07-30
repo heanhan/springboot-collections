@@ -2,6 +2,7 @@ package com.example.jpa.controller;
 
 import com.example.common.model.Result;
 import com.example.common.model.StatusCode;
+import com.example.jpa.annotation.LogRecord;
 import com.example.jpa.pojo.User;
 import com.example.jpa.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -27,6 +28,16 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
+
+    /**
+     *  use spring-data-jpa support MvcWeb
+     *
+     */
+    @GetMapping(value = "/getUserInfo/{userId}")
+    public User getUserInfo(@PathVariable(name = "userId") User user){
+        return user;
+    }
 
 
     /**
@@ -243,6 +254,7 @@ public class UserController {
      * 查询所有的用户信息
      * @return  Result
      */
+    @LogRecord
     @GetMapping(value = "/findAllUser")
     public Result findAllUser(){
         List<User> allUser = userService.findAllUser();
@@ -274,6 +286,7 @@ public class UserController {
      * @param pageSize 分页大小
      * @return Result
      */
+    @LogRecord
     @GetMapping(value="/findAllUserByName")
     public Result findAllUserByName(String userName,String pageNum,String pageSize){
         PageRequest pageRequest =PageRequest.of(Integer.parseInt(pageNum)-1,Integer.parseInt(pageSize));
@@ -287,11 +300,12 @@ public class UserController {
      * @param param 查询所有用户，动态参数、模糊匹配、分页
      * @return Result
      */
+    @LogRecord
     @GetMapping(value="/findAllUserByDynamicCondition")
     public Result findAllUserByDynamicCondition(Map<String,String> param){
         String pageNum = param.get("pageNum");
         String pageSize = param.get("pageSize");
-        PageRequest pageRequest =PageRequest.of(Integer.parseInt(pageNum)-1,Integer.parseInt(pageSize));
+        PageRequest pageRequest =PageRequest.of(Integer.parseInt(pageNum)-1,Integer.parseInt(pageSize), Sort.Direction.DESC,"userId");
         Page<User> allUserByDynamicCondition = userService.findAllUserByDynamicCondition(param, pageRequest);
         return new Result(true,StatusCode.OK,"search is success ！",allUserByDynamicCondition);
     }

@@ -69,6 +69,7 @@
       <module name="springboot-socket" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
       <module name="springboot-taskjobs" target="1.8" />
+      <module name="springboot-test" target="1.8" />
       <module name="springboot-web" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
       <module name="springboot-xml" target="1.8" />
@@ -104,6 +105,7 @@
       <module name="springboot-socket" options="-parameters" />
       <module name="springboot-swagger" options="-parameters" />
       <module name="springboot-taskjobs" options="-parameters" />
+      <module name="springboot-test" options="-parameters" />
       <module name="springboot-web" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
       <module name="springboot-xml" options="-parameters" />

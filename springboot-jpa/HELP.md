@@ -6,6 +6,7 @@ Spring-data-jpa 知识点
 
 **一、*ORM概述（Object Relation Mapping 对象关系映射）*
 
+
 `
     
 
@@ -25,6 +26,14 @@ Spring-data-jpa 知识点
     3、 注意JPQL不支持insert操作
     
     @Query 如果在注解中添加 nativeQuery=true 是支持原生SQL查询
+    
+    
+    
+    
+    使用自定义疏解（实质是基于切面）
+    
+    
+    
 
 `
 
