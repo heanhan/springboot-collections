@@ -78,4 +78,16 @@ Maven打包过程的问题
     
     26、springboot-swagger :使用swagger 。
     
+    27、springboot-admin : springboot的默认监控
+    
+    28、springboot-commandlinerunner ：springboot 在加载配置文件的前初始化一些文件
+    
+    29、springboot-transaction: 学习springboot 下的事务。
+    
+    30、springboot-elasticsearch :学习elasearch
+    
+    31、springboot-https ：使用springboot 配置https,并且兼容使用http协议
+    
+    
+    
     

@@ -47,6 +47,9 @@
         <module>springboot-swagger</module>
         <module>springboot-admin</module>
         <module>springboot-commandlinerunner</module>
+        <module>springboot-transactions</module>
+        <module>springboot-elasticsearch</module>
+        <module>springboot-https</module>
     </modules>
     <dependencies>
 

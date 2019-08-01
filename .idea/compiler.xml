@@ -13,28 +13,31 @@
         <module name="springboot-mybatis" />
         <module name="springboot-interceptor" />
         <module name="demo" />
+        <module name="springboot-transactions" />
         <module name="springboot-fastDFS" />
-        <module name="springboot-html" />
         <module name="springboot-hello" />
         <module name="springboot-mycat" />
+        <module name="springboot-elasticsearch" />
         <module name="springboot-redis" />
         <module name="springboot-xml" />
         <module name="springboot-jpa" />
         <module name="springboot-getValue" />
         <module name="springboot-admin" />
         <module name="springboot-httpclient" />
+        <module name="sms-spring-boot-starter" />
         <module name="springboot-web" />
         <module name="springboot-socket" />
         <module name="springboot-shiro" />
         <module name="springboot-crossorigin" />
-        <module name="springboot-mongodb" />
         <module name="springboot-taskjobs" />
         <module name="springboot-poi" />
-        <module name="sms-spring-boot-starter" />
+        <module name="springboot-pdf" />
+        <module name="springboot-html" />
         <module name="springboot-swagger" />
+        <module name="springboot-https" />
         <module name="springboot-files" />
         <module name="springboot-readsql" />
-        <module name="springboot-pdf" />
+        <module name="springboot-mongodb" />
         <module name="springboot-ftp-jsch" />
         <module name="springboot-fileupload" />
       </profile>
@@ -47,6 +50,7 @@
       <module name="springboot-commandlinerunner" target="1.8" />
       <module name="springboot-common" target="1.8" />
       <module name="springboot-crossorigin" target="1.8" />
+      <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-fastDFS" target="1.8" />
       <module name="springboot-file" target="1.8" />
       <module name="springboot-files" target="1.8" />
@@ -56,6 +60,7 @@
       <module name="springboot-hello" target="1.8" />
       <module name="springboot-html" target="1.8" />
       <module name="springboot-httpclient" target="1.8" />
+      <module name="springboot-https" target="1.8" />
       <module name="springboot-interceptor" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
@@ -70,6 +75,7 @@
       <module name="springboot-swagger" target="1.8" />
       <module name="springboot-taskjobs" target="1.8" />
       <module name="springboot-test" target="1.8" />
+      <module name="springboot-transactions" target="1.8" />
       <module name="springboot-web" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
       <module name="springboot-xml" target="1.8" />
@@ -83,6 +89,7 @@
       <module name="springboot-commandlinerunner" options="-parameters" />
       <module name="springboot-common" options="" />
       <module name="springboot-crossorigin" options="-parameters" />
+      <module name="springboot-elasticsearch" options="-parameters" />
       <module name="springboot-fastDFS" options="-parameters" />
       <module name="springboot-file" options="-parameters" />
       <module name="springboot-files" options="-parameters" />
@@ -92,6 +99,7 @@
       <module name="springboot-hello" options="-parameters" />
       <module name="springboot-html" options="-parameters" />
       <module name="springboot-httpclient" options="-parameters" />
+      <module name="springboot-https" options="-parameters" />
       <module name="springboot-interceptor" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />
       <module name="springboot-mongodb" options="-parameters" />
@@ -106,6 +114,7 @@
       <module name="springboot-swagger" options="-parameters" />
       <module name="springboot-taskjobs" options="-parameters" />
       <module name="springboot-test" options="-parameters" />
+      <module name="springboot-transactions" options="-parameters" />
       <module name="springboot-web" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
       <module name="springboot-xml" options="-parameters" />

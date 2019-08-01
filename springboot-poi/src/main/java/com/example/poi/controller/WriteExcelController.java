@@ -83,6 +83,7 @@ public class WriteExcelController {
          */
         writers = new ExcelWriter(fileOutputStream, ExcelTypeEnum.XLSX, false);
         Sheet sheet0 = new Sheet(1, 0);//创建一个sheet
+        Sheet sheet1 = new Sheet(2, 0);//创建一个sheet
         sheet0.setSheetName("测试sheet0名称");
         List<List<String>> lists = new ArrayList<>();
         for (int i = 0; i < 100; i++) {

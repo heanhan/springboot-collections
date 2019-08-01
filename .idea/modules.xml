@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-commandlinerunner/springboot-commandlinerunner.iml" filepath="$PROJECT_DIR$/springboot-commandlinerunner/springboot-commandlinerunner.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-common/springboot-common.iml" filepath="$PROJECT_DIR$/springboot-common/springboot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-crossorigin/springboot-crossorigin.iml" filepath="$PROJECT_DIR$/springboot-crossorigin/springboot-crossorigin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-fastDFS/springboot-fastDFS.iml" filepath="$PROJECT_DIR$/springboot-fastDFS/springboot-fastDFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-files/springboot-files.iml" filepath="$PROJECT_DIR$/springboot-files/springboot-files.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-fileupload/springboot-fileupload.iml" filepath="$PROJECT_DIR$/springboot-fileupload/springboot-fileupload.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-hello/springboot-hello.iml" filepath="$PROJECT_DIR$/springboot-hello/springboot-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-html/springboot-html.iml" filepath="$PROJECT_DIR$/springboot-html/springboot-html.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-httpclient/springboot-httpclient.iml" filepath="$PROJECT_DIR$/springboot-httpclient/springboot-httpclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-https/springboot-https.iml" filepath="$PROJECT_DIR$/springboot-https/springboot-https.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-interceptor/springboot-interceptor.iml" filepath="$PROJECT_DIR$/springboot-interceptor/springboot-interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
@@ -30,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-socket/springboot-socket.iml" filepath="$PROJECT_DIR$/springboot-socket/springboot-socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-taskjobs/springboot-taskjobs.iml" filepath="$PROJECT_DIR$/springboot-taskjobs/springboot-taskjobs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-transactions/springboot-transactions.iml" filepath="$PROJECT_DIR$/springboot-transactions/springboot-transactions.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-xml/springboot-xml.iml" filepath="$PROJECT_DIR$/springboot-xml/springboot-xml.iml" />

@@ -1,4 +1,4 @@
-package com.example.shiro.dao;
+package com.example.shiro.pojo;
 
 import lombok.Data;
 
