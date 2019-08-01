@@ -50,6 +50,7 @@
         <module>springboot-transactions</module>
         <module>springboot-elasticsearch</module>
         <module>springboot-https</module>
+        <module>springboot-aop</module>
     </modules>
     <dependencies>
 
