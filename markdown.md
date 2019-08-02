@@ -21,3 +21,4 @@
         @ConfigurationProperties(prefix = "mail")        //配置文件中以某个字段开头
         @PropertySource("classpath:/mail.properties")    //读到配置文件
         就可以读取我们自己定义的资源文件了
+     3、待续.....
