@@ -25,6 +25,7 @@
         <module name="springboot-getValue" />
         <module name="springboot-admin" />
         <module name="springboot-httpclient" />
+        <module name="springboot-quartz" />
         <module name="springboot-web" />
         <module name="springboot-socket" />
         <module name="springboot-shiro" />
@@ -36,6 +37,7 @@
         <module name="springboot-swagger" />
         <module name="springboot-https" />
         <module name="springboot-files" />
+        <module name="springboot-security" />
         <module name="springboot-readsql" />
         <module name="springboot-pdf" />
         <module name="springboot-aop" />
@@ -70,8 +72,10 @@
       <module name="springboot-mycat" target="1.8" />
       <module name="springboot-pdf" target="1.8" />
       <module name="springboot-poi" target="1.8" />
+      <module name="springboot-quartz" target="1.8" />
       <module name="springboot-readsql" target="1.8" />
       <module name="springboot-redis" target="1.8" />
+      <module name="springboot-security" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-socket" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
@@ -110,8 +114,10 @@
       <module name="springboot-mycat" options="-parameters" />
       <module name="springboot-pdf" options="-parameters" />
       <module name="springboot-poi" options="-parameters" />
+      <module name="springboot-quartz" options="-parameters" />
       <module name="springboot-readsql" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
+      <module name="springboot-security" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-socket" options="-parameters" />
       <module name="springboot-swagger" options="-parameters" />

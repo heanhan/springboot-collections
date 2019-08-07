@@ -25,8 +25,10 @@
     <file url="file://$PROJECT_DIR$/springboot-mycat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-pdf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-poi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-quartz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-readsql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-shiro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-socket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-swagger" charset="UTF-8" />

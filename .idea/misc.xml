@@ -23,6 +23,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-mycat" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-pdf" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-poi" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-quartz" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-readsql" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-redis" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-shiro" />
@@ -68,6 +69,7 @@
         <option value="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-https/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-quartz/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

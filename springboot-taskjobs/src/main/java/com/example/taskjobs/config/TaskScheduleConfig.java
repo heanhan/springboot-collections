@@ -9,7 +9,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 
 /**
  * 使用SpringBoot配置定时任务的过程中,使用@Scheduled配置了多个定时任务,
- * 但是在项目启动的时候每次只会启动一个定时任务,只好搜索一波,直到看到了
+ * 但是在项目启动的时候每次只会启动一个定时任务,
  * ThreadPoolTaskScheduler的源码,才发现默认开启的线程数是 1 ,
  * 每次只能执行一个定时任务,以下是部分源码
  *
