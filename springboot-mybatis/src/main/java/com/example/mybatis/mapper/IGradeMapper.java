@@ -20,6 +20,6 @@ public interface IGradeMapper {
      * @param gid
      * @return
      */
-    public List<Grade> findGradeOfStudent(String gid);
+    List<Grade> findGradeOfStudent(String gid);
 
 }

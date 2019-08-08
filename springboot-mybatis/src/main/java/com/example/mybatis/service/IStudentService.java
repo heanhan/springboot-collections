@@ -11,13 +11,13 @@ public interface IStudentService {
      * @param student
      * @return
      */
-    public int addStudent(Student student);
+    int addStudent(Student student);
 
     /**
      * 查询所有的学生
      * @return
      */
-    public List<Student> findAllStudent();
+    List<Student> findAllStudent();
 
 
     /**
@@ -28,5 +28,5 @@ public interface IStudentService {
      * @param telphone
      * @return
      */
-    public List<Student> findStudentByCondition(String stuId, String stuName, String sex, String telphone);
+    List<Student> findStudentByCondition(String stuId, String stuName, String sex, String telphone);
 }

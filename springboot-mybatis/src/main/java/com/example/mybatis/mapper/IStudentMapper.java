@@ -14,13 +14,13 @@ public interface IStudentMapper {
      * @param student
      * @return
      */
-    public int addStudent(Student student);
+    int addStudent(Student student);
 
     /**
      * 查询所有的学生
      * @return
      */
-    public List<Student> findAllStudent();
+    List<Student> findAllStudent();
 
     /**
      * 动态条件查询学生
@@ -30,5 +30,5 @@ public interface IStudentMapper {
      * @param telphone
      * @return
      */
-    public List<Student> findStudentByCondition(String stuId, String stuName, String sex, String telphone);
+    List<Student> findStudentByCondition(String stuId, String stuName, String sex, String telphone);
 }
