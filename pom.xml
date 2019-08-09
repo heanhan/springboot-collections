@@ -52,6 +52,10 @@
         <module>springboot-https</module>
         <module>springboot-aop</module>
         <module>springboot-security</module>
+        <module>springboot-rabbitmq</module>
+        <module>springboot-quartz</module>
+        <module>springboot-mybatisplus</module>
+        <module>springboot-tk-mapper</module>
     </modules>
     <dependencies>
 

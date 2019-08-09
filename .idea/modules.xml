@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springboot-getValue/demo.iml" filepath="$PROJECT_DIR$/springboot-getValue/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sms-spring-boot-starter/sms-spring-boot-starter.iml" filepath="$PROJECT_DIR$/sms-spring-boot-starter/sms-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-admin/springboot-admin.iml" filepath="$PROJECT_DIR$/springboot-admin/springboot-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
@@ -24,10 +23,12 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" filepath="$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" filepath="$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-pdf/springboot-pdf.iml" filepath="$PROJECT_DIR$/springboot-pdf/springboot-pdf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-poi/springboot-poi.iml" filepath="$PROJECT_DIR$/springboot-poi/springboot-poi.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-readsql/springboot-readsql.iml" filepath="$PROJECT_DIR$/springboot-readsql/springboot-readsql.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
@@ -35,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-socket/springboot-socket.iml" filepath="$PROJECT_DIR$/springboot-socket/springboot-socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-taskjobs/springboot-taskjobs.iml" filepath="$PROJECT_DIR$/springboot-taskjobs/springboot-taskjobs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-tk-mapper/springboot-tk-mapper.iml" filepath="$PROJECT_DIR$/springboot-tk-mapper/springboot-tk-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-transactions/springboot-transactions.iml" filepath="$PROJECT_DIR$/springboot-transactions/springboot-transactions.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />

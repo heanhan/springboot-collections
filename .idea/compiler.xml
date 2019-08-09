@@ -12,10 +12,10 @@
         <module name="springboot-websocket" />
         <module name="springboot-mybatis" />
         <module name="springboot-interceptor" />
-        <module name="demo" />
         <module name="springboot-transactions" />
         <module name="springboot-fastDFS" />
-        <module name="springboot-html" />
+        <module name="springboot-tk-mapper" />
+        <module name="springboot-rabbitmq" />
         <module name="springboot-hello" />
         <module name="springboot-mycat" />
         <module name="springboot-elasticsearch" />
@@ -26,20 +26,22 @@
         <module name="springboot-admin" />
         <module name="springboot-httpclient" />
         <module name="springboot-quartz" />
+        <module name="springboot-mybatisplus" />
         <module name="springboot-web" />
         <module name="springboot-socket" />
         <module name="springboot-shiro" />
         <module name="springboot-crossorigin" />
-        <module name="springboot-mongodb" />
         <module name="springboot-taskjobs" />
         <module name="springboot-poi" />
+        <module name="springboot-html" />
+        <module name="springboot-pdf" />
         <module name="sms-spring-boot-starter" />
         <module name="springboot-swagger" />
         <module name="springboot-https" />
         <module name="springboot-files" />
         <module name="springboot-security" />
         <module name="springboot-readsql" />
-        <module name="springboot-pdf" />
+        <module name="springboot-mongodb" />
         <module name="springboot-aop" />
         <module name="springboot-ftp-jsch" />
         <module name="springboot-fileupload" />
@@ -69,10 +71,12 @@
       <module name="springboot-jpa" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-mybatisplus" target="1.8" />
       <module name="springboot-mycat" target="1.8" />
       <module name="springboot-pdf" target="1.8" />
       <module name="springboot-poi" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
+      <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-readsql" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-security" target="1.8" />
@@ -81,6 +85,7 @@
       <module name="springboot-swagger" target="1.8" />
       <module name="springboot-taskjobs" target="1.8" />
       <module name="springboot-test" target="1.8" />
+      <module name="springboot-tk-mapper" target="1.8" />
       <module name="springboot-transactions" target="1.8" />
       <module name="springboot-web" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
@@ -111,10 +116,12 @@
       <module name="springboot-jpa" options="-parameters" />
       <module name="springboot-mongodb" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-mybatisplus" options="-parameters" />
       <module name="springboot-mycat" options="-parameters" />
       <module name="springboot-pdf" options="-parameters" />
       <module name="springboot-poi" options="-parameters" />
       <module name="springboot-quartz" options="-parameters" />
+      <module name="springboot-rabbitmq" options="-parameters" />
       <module name="springboot-readsql" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
@@ -123,6 +130,7 @@
       <module name="springboot-swagger" options="-parameters" />
       <module name="springboot-taskjobs" options="-parameters" />
       <module name="springboot-test" options="-parameters" />
+      <module name="springboot-tk-mapper" options="-parameters" />
       <module name="springboot-transactions" options="-parameters" />
       <module name="springboot-web" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />

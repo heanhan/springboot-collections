@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-tk-mapper:war">
+    <output-path>$PROJECT_DIR$/springboot-tk-mapper/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-tk-mapper</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-tk-mapper-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-tk-mapper:war exploded" />
+    </root>
+  </artifact>
+</component>

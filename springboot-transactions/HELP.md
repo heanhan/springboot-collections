@@ -2,18 +2,82 @@
 
 ## Spring Boot 系列 学习事务
 
-For further reference, please consider the following sections:
+单体项目的事务:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Web Starter](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-developing-web-applications)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-jpa-and-spring-data)
+* 事务的简述
 
-### Guides
-The following guides illustrate how to use some features concretely:
+‘
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
+     事务：一件事有n个组成单元，要不这n个组成单元同时成功，要不n个单元的就同时失败，这就是将n个组成单元放到一个事务中。
+     事务特性：ACID
+        > 原子性：事务的最小操作单元，要不全部成功，要不全部失败。
+        > 一致性：事务发生的前后操作保持一致。如A转钱给B,A减 B加这两个操作必须保持一致。
+        > 隔离性：不同的事务之间的操作是相互独立的。
+        > 持久性：事务一旦被提交，那么对数据库的改变就是永久的，即便在数据库系统遇到故障，也不会丢失提交事务的操作。
+        
+        
+     事务的 四大隔离级别 :隔离级别越高，则性能越低，反之亦然。
+        >  读未提交，可以读到其他事务未提交的结果，（脏读）
+        >  读已提交，（大部分数据采用的默认隔离级别）在其他事务完成后，才能读取到该事务的数据更新后的结果。但会造成 不可重复读，和幻读。
+        >  可重复读，
+        >  序列化，最安全的隔离级别，但同时性能最低。
+        
+        通常情况下，我们会使用可重复读、读已提交，在相应的隔离上添加相应的并发锁的机制来控制数据的访问，这样几保证了系统的性能，
+        也一定程度上保证数据的一致性。
+        
+     主要介绍spring 的事务知识：
+        实现方式有两种：编程式、声明式。
+        编程式的方式： 使用TransactionTemplate,重写execute方法实现事务管理。
+        声明式： 使用AOP面向切面编程实现，本质就是在目标方法执行进行拦截，在目标方法执行前加上或者创建一个事务，在目标方法
+            执行后根据实际情况选择提交或者是回滚事务。    
+            【注：实现声明式的事务有两种方式：基于xml配置文件、使用注解，使用注解@Transaction,将事务规则应用到业务逻辑中】
+            
+’
+
+* 事务的实现
+
+    * spring 方式
+    
+        '
+        
+        '
+     
+   
+    
+
+分布式的项目的事务:
+
+* 分布式事务的实现方式：
+    
+    1、
+
+
+* CAP原则（实现在CP或者AP中实现）
+    
+    指在一个分布式系统中，一致性（Consistency）、可用性（Avaiability）、分区容错性（Partition tolerance）,三者不可兼得。
+    
+    
+        一致性：在分布式系统中,所有的数据备份，在同一时刻是否是同样的值，等同于所有的节点访问同一份最新的数据副本。
+        可用性：在集群中一部分节点故障后，集群整体试过还能响应客户端的读写请求，（对数据更新具备高可用）
+        分区容错性：以实际效果而言，分区相当于对通信的时限要求，系统如果不能在时限内达成数据的一致性，就意味着发生了分区情况，必须就当前的操作
+        在C和A之间做选择。
+
+
+
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
+
+
+
+
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+
+
+
+
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+
+
+
+
 * [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
 

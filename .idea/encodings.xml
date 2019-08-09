@@ -22,10 +22,12 @@
     <file url="file://$PROJECT_DIR$/springboot-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatisplus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mycat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-pdf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-poi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-quartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-readsql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-security" charset="UTF-8" />
@@ -33,6 +35,7 @@
     <file url="file://$PROJECT_DIR$/springboot-socket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-taskjobs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-tk-mapper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-transactions" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-websocket" charset="UTF-8" />

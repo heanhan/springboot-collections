@@ -20,10 +20,12 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-jpa" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mongodb" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-mybatisplus" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mycat" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-pdf" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-poi" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-quartz" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-rabbitmq" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-readsql" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-redis" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-shiro" />
@@ -31,6 +33,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-swagger" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-taskjobs" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-test" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-tk-mapper" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-transactions" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-web" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-websocket" />
@@ -70,12 +73,10 @@
         <option value="$PROJECT_DIR$/springboot-https/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-aop/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-tk-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatisplus/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/springboot-file/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
