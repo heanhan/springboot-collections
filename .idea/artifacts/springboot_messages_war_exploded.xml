@@ -66,7 +66,8 @@
           <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.36.Final" />
           <element id="library" level="project" name="Maven: io.projectreactor:reactor-core:3.2.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
-          <element id="library" level="project" name="Maven: com.aliyun:aliyun-java-sdk-core:4.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.6.2" />
+          <element id="library" level="project" name="Maven: com.aliyun:aliyun-java-sdk-core:4.0.3" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.9" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.11" />

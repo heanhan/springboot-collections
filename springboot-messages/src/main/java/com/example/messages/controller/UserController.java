@@ -5,6 +5,7 @@ import com.example.messages.utils.RedisUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -46,8 +47,8 @@ public class UserController {
      * @param telphone 电话号码
      * @return  返回六位数的验证码
      */
-    @PostMapping(value= "/validateCode")
-    public void validateCode(String telphone){
+    @PostMapping(value= "/validateCode/{telphone}")
+    public void validateCode(@PathVariable String telphone){
         /**
          * 生成随机数  六位数字
          *
@@ -70,7 +71,7 @@ public class UserController {
          */
         Map<String, String> map = new HashMap<>();
         map.put("telphone",telphone);//是指电话号码
-        map.put("validateCode",validateCode+"");
+        map.put("code",validateCode+"");
         rabbitTemplate.convertAndSend("message",map);
     }
 }

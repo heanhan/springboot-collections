@@ -28,8 +28,8 @@ public class MessageListener {
     @Value("${aliyun.sms.template_code}")
     private String template_code;//模板编号
 
-    @Value("${aliyun.sms.sign_name}")
-    private String sign_name;//签名
+//    @Value("${aliyun.sms.sign_name}")
+    private String sign_name="微服务聊天";//签名
 
     /**
      * 发送短信功能
@@ -39,12 +39,8 @@ public class MessageListener {
 
         log.info("解析发送短信信息");
 
-        try{
-            messageUtil.sendSms(map.get("telphone"),template_code,sign_name,"{\"验证码为\":\""+ map.get("validateCode") +"\"}");
-        }catch (ClientException e){
-            e.printStackTrace();
-        }
-
-
+        String telphone= map.get("telphone");
+        String code= map.get("code");
+        messageUtil.sendSms(telphone,template_code,sign_name,"\"code\":\""+code+"\"}");
     }
 }
