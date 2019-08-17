@@ -18,10 +18,12 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-https" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-interceptor" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-jpa" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-messages" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mongodb" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatisplus" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mycat" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-page" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-pdf" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-poi" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-quartz" />
@@ -76,6 +78,8 @@
         <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-tk-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-page/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-messages/pom.xml" />
       </list>
     </option>
   </component>

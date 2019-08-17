@@ -21,10 +21,12 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-https/springboot-https.iml" filepath="$PROJECT_DIR$/springboot-https/springboot-https.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-interceptor/springboot-interceptor.iml" filepath="$PROJECT_DIR$/springboot-interceptor/springboot-interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-messages/springboot-messages.iml" filepath="$PROJECT_DIR$/springboot-messages/springboot-messages.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" filepath="$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" filepath="$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-page/springboot-page.iml" filepath="$PROJECT_DIR$/springboot-page/springboot-page.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-pdf/springboot-pdf.iml" filepath="$PROJECT_DIR$/springboot-pdf/springboot-pdf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-poi/springboot-poi.iml" filepath="$PROJECT_DIR$/springboot-poi/springboot-poi.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />

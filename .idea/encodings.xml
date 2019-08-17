@@ -20,10 +20,12 @@
     <file url="file://$PROJECT_DIR$/springboot-https" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-interceptor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-messages" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatisplus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mycat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-page" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-pdf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-poi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-quartz" charset="UTF-8" />

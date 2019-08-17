@@ -56,6 +56,8 @@
         <module>springboot-quartz</module>
         <module>springboot-mybatisplus</module>
         <module>springboot-tk-mapper</module>
+        <module>springboot-page</module>
+        <module>springboot-messages</module>
     </modules>
     <dependencies>
 

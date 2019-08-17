@@ -1,20 +1,20 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="springboot-redis:war exploded">
-    <output-path>$PROJECT_DIR$/springboot-redis/target/springboot-redis-0.0.1-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="springboot-page:war exploded">
+    <output-path>$PROJECT_DIR$/springboot-page/target/springboot-page-0.0.1-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>springboot-redis</module>
+        <module>springboot-page</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="springboot-redis" />
+          <element id="module-output" name="springboot-page" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.6.RELEASE" />
@@ -25,20 +25,7 @@
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.11.2" />
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.26" />
           <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3.2" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.23" />
-          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:2.1.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:2.1.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.1.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.1.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.1.8.RELEASE" />
-          <element id="library" level="project" name="Maven: redis.clients:jedis:2.9.3" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.26" />
-          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.6.2" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
@@ -53,15 +40,22 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.8.RELEASE" />
-          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.58" />
+          <element id="archive" name="springboot-common-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="springboot-common" />
+          </element>
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.26" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.8.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/springboot-redis/target/springboot-redis-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/springboot-page/target/springboot-page-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="springboot-redis/web/Web" />
+      <element id="javaee-facet-resources" facet="springboot-page/web/Web" />
     </root>
   </artifact>
 </component>

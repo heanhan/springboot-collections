@@ -16,6 +16,7 @@
         <module name="springboot-fastDFS" />
         <module name="springboot-tk-mapper" />
         <module name="springboot-rabbitmq" />
+        <module name="springboot-messages" />
         <module name="springboot-hello" />
         <module name="springboot-mycat" />
         <module name="springboot-elasticsearch" />
@@ -27,6 +28,7 @@
         <module name="springboot-httpclient" />
         <module name="springboot-quartz" />
         <module name="springboot-mybatisplus" />
+        <module name="springboot-page" />
         <module name="springboot-web" />
         <module name="springboot-socket" />
         <module name="springboot-shiro" />
@@ -69,10 +71,12 @@
       <module name="springboot-https" target="1.8" />
       <module name="springboot-interceptor" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
+      <module name="springboot-messages" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-mybatisplus" target="1.8" />
       <module name="springboot-mycat" target="1.8" />
+      <module name="springboot-page" target="1.8" />
       <module name="springboot-pdf" target="1.8" />
       <module name="springboot-poi" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
@@ -114,10 +118,12 @@
       <module name="springboot-https" options="-parameters" />
       <module name="springboot-interceptor" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-messages" options="-parameters" />
       <module name="springboot-mongodb" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-mybatisplus" options="-parameters" />
       <module name="springboot-mycat" options="-parameters" />
+      <module name="springboot-page" options="-parameters" />
       <module name="springboot-pdf" options="-parameters" />
       <module name="springboot-poi" options="-parameters" />
       <module name="springboot-quartz" options="-parameters" />
