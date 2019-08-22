@@ -1,6 +1,7 @@
 package com.example.page.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -18,14 +19,11 @@ public class PageController {
      * 作用是跳转到 index.htmnl 页面
      * @return  index.html视图
      */
-    @GetMapping(value = "/startPage")
-    public String startPage(){
-        return "index.html";
-    }
-
-    @GetMapping(value = "/page1")
-    public String index(){
-        return "/index.html";
+    @GetMapping(value = "/index")
+    public String index(Model model){
+        String name ="zhaojh0912";
+        model.addAttribute("name",name);
+        return "index";
     }
 
 }

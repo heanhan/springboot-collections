@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <!--如果使用本地的css文件，则这样写：
+    <link rel="stylesheet" href=".../static/css/bootstrap.min.css"> 只这样写，是不能动态获取的，只有静态获取才能成功
+    需要改成下面的样式
+    <link rel="stylesheet" th:href="@{css/bootstrap.min.css}" href=".../static/css/bootstrap.min.css">
+    -->
 </head>
 <body>
+<h1>hello word !this is use thymeleaf as page</h1>
+<div>
+    <div>
+        <span>姓名：</span><span th:text="${name}"></span><br>
+        <h3>输入框</h3>
+        <input th:type="username" placeholder="请输入用户名！" th:class="jia-input"><br>
+        <input th:type="password" placeholder="请输入密码！" th:class="jia-input">
+        <input th:type="submit" value="提交">
 
-<h2>hello word! 欢迎来到template: index.html</h2>
+    </div>
+    <div>
+
+    </div>
+</div>
 </body>
 </html>
