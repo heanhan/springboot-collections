@@ -13,6 +13,7 @@
         <module name="springboot-mybatis" />
         <module name="springboot-interceptor" />
         <module name="springboot-transactions" />
+        <module name="springboot-mongodb" />
         <module name="springboot-fastDFS" />
         <module name="springboot-tk-mapper" />
         <module name="springboot-rabbitmq" />
@@ -27,23 +28,23 @@
         <module name="springboot-admin" />
         <module name="springboot-httpclient" />
         <module name="springboot-quartz" />
-        <module name="springboot-mybatisplus" />
+        <module name="sms-spring-boot-starter" />
         <module name="springboot-page" />
         <module name="springboot-web" />
         <module name="springboot-socket" />
         <module name="springboot-shiro" />
         <module name="springboot-crossorigin" />
+        <module name="springboot-swagger" />
         <module name="springboot-taskjobs" />
         <module name="springboot-poi" />
         <module name="springboot-html" />
-        <module name="springboot-pdf" />
-        <module name="sms-spring-boot-starter" />
-        <module name="springboot-swagger" />
+        <module name="springboot-mybatisplus" />
         <module name="springboot-https" />
         <module name="springboot-files" />
+        <module name="springboot-bolg" />
         <module name="springboot-security" />
         <module name="springboot-readsql" />
-        <module name="springboot-mongodb" />
+        <module name="springboot-pdf" />
         <module name="springboot-aop" />
         <module name="springboot-ftp-jsch" />
         <module name="springboot-fileupload" />
@@ -54,6 +55,7 @@
       <module name="sms-spring-boot-starter" target="1.8" />
       <module name="springboot-admin" target="1.8" />
       <module name="springboot-aop" target="1.8" />
+      <module name="springboot-bolg" target="1.8" />
       <module name="springboot-collections" target="1.8" />
       <module name="springboot-commandlinerunner" target="1.8" />
       <module name="springboot-common" target="1.8" />
@@ -102,6 +104,7 @@
       <module name="sms-spring-boot-starter" options="-parameters" />
       <module name="springboot-admin" options="-parameters" />
       <module name="springboot-aop" options="-parameters" />
+      <module name="springboot-bolg" options="-parameters" />
       <module name="springboot-commandlinerunner" options="-parameters" />
       <module name="springboot-common" options="" />
       <module name="springboot-crossorigin" options="-parameters" />

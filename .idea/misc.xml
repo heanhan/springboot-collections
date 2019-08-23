@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springboot-admin" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-aop" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-bolg" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-commandlinerunner" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-crossorigin" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-elasticsearch" />
@@ -80,6 +81,7 @@
         <option value="$PROJECT_DIR$/springboot-mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-page/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-messages/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-bolg/pom.xml" />
       </list>
     </option>
   </component>
