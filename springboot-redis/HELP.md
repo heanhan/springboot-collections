@@ -61,4 +61,30 @@ Lettuce的连接是基于Netty的，连接实例（StatefulRedisConnection）可
              
              
   `
+  
+  
+  
+  关于redis 常涉及到的知识点：
+    
+    1、什么是redis
+    Redis是一个基于内存的高性能的 key-value数据库。
+    
+    2、redis的特点
+    redis 本质是一个key-value 类型的内存数据库，很像memcached,整个数据库统统加载在内存中进行操作，定期通过异步操作吧数据库数据flush到硬盘上保存。
+    因为是纯内存的操作，redis的性能非常出色，每秒可以处理超过10万次的读写操作，是已知性能最快的key-value 数据库之一。
+    redis的出色之处不仅仅是性能，redis最大魅力是支持多种数据结构，此外单个value的最大限制为1G,不像mencached只能保存1MB的数据，因此redis可以用来实现很多有用的
+    功能。比如说，他的List来做FIFO双向链表，实现一个轻量级的高性能的消息队列服务，用他的Set可以做高性能的Tag系统。另外redis 也可以对存入的key-value设置expire
+    时间，因此也可以当做一个功能加强版的memcached来用。
+    redis的主要缺点，数据库容易受到物理数据的限制，不能做海量数据的高性能读写。因此Redis适合做场景主要局限在小量数据的高性能操作和运算上。
+    
+    3、使用redis有哪些好处。
+        1.速度快，因为数据存在内存中，类似于HashMap,HashMap的优势就是查找和操作的时间复杂度都是O(1).
+        2.支持丰富的数据结构，支持string,list，sorted,set,hash.
+        3.支持事务，操作都是原子性，所谓的原子性就是对数据的更改要吗全部执行，要吗全部不执行。
+        4.丰富的特性，可用于缓存，消息。
 
+    4.redis相比memcached有哪些优势？
+        1.memcached所有的值均是简单的字符串，redis作为其替代者，支持更为丰富的数据类型 
+        2.redis的速度比memcached快很多
+        3.redis可以持久化其数据
+    
