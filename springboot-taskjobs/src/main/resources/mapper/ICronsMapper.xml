@@ -6,7 +6,6 @@
 
 
     <select id="findByCronsId" parameterType="integer" resultType="java.lang.String">
-
-
+        select cron from  表 where id=#{identity }
     </select>
 </mapper>

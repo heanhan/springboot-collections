@@ -108,3 +108,78 @@ For further reference, please consider the following sections:
                 
                 
         * 使用      
+
+
+
+借鉴大神的笔记内容：
+        
+        java开发领域的，目前可以通过以下几种方式实现定时任务。
+        
+        1、单机部署的模式
+        
+        a. Timer jdk 中自带一个定时任务调度类。可以简单的实现某一频度的任务执行。提供的功能比较单一,无法实现复杂的调度任务。
+        b. ScheduledExcutorService :也是jdk自带的基于线程池设计的定时任务。其每个调度任务都会分配到线程池中的一个线程执行。
+        所以其任务是并发执行。互不影响。
+        c. spring Task :是spring提供的一个任务调度任务。支持注解和配置，支持Cron表达式，使用简单，功能强大。
+        d. Quartz 是一款功能强大的任务调度任务框架。可以实现较为复杂的调度任务。还支持分布式任务调度。
+        
+        
+       2、分布式集群模式（不多介绍，简单提一下）
+       问题：
+       I、如何解决定时任务的多次执行？
+       II、如何解决任务的单点问题，实现任务的故障转移？
+        
+        问题I的简单思考：
+        1、固定执行定时任务的机器（可以有效避免多次执行的情况 ，缺点就是单点故障问题）。
+        2、借助Redis的过期机制和分布式锁。
+        3、借助mysql的锁机制等。
+        
+        
+        使用spring 的spring Task 实现定时任务（springboot ）
+        1、简单的定时任务实现
+        实现方式：
+            A:使用EnableScheduling 注解开启定时任务的支持。
+            B:使用@Scheduled 注解即可，基于cron 、fixedrate、fixedDelay等一些策略实现定时任务。
+            
+            使用缺点：
+            A: 多个定时任务使用的同一个调度线程，所以任务是阻塞执行的，执行效率不高。
+            B: 其次如果出现任务阻塞，导致一些场景的定时任务没有实际意义，比如每天12点的一个计算任务，被阻塞到1点执行，会导致结果并非我们想要。
+            
+            使用有点：
+            A : 配置简单。
+            B ：适用于单个后台线程执行周期任务，并且保证顺序执行。
+   
+   
+   
+   
+   
+   三、动态定时任务的实现
+   
+        问题：
+        使用@Scheduled注解来完成设置定时任务，但是有时候我们往往需要对周期性的时间的设置会做一些改变，或者要动态的启停一个定时任务，那么这个时候使用此注解就不太方便了，原因在于这个注解中配置的cron表达式必须是常量，
+        那么当我们修改定时参数的时候，就需要停止服务，重新部署。
+        
+        解决办法：
+        
+        方式一：
+            
+            实现SchedulingConfigure 接口，重写configureTasks 方法。重新制定Trigger，核心方法就是addTriggerTask(Runnable task, Trigger trigger) ，
+            不过需要注意的是，此种方式修改了配制后，需要在下一次调度结束后，才会更新调度器。并不会在修改配置值时实时更新。实时更新需要在修改配置文件时
+            额外增加相关逻辑处理。
+          
+          
+          
+        方式二：使用threadPoolTaskScheduler 类可实现动态添加删除功能，当然可实现频率的调整。
+        
+        首先,我们要认识一下这个调度类，它其对java 中ScheduledThreadPoolExcutor 的一个封装改进后的一个产物。主要改进有如下几点
+        
+        1.提供默认配置，因为是scheduleThreadPoolExecutor,所以只有poolSize 者一个默认值。
+        2.支持自定义任务，通过传入Trigger 参数。
+        3.对任务出错进行优化，如果是重复性的任务，不抛出异常，通过日志记录下来，不影响下次运行。如果只是执行一次任务则向上抛出异常。
+        
+        顺便说下ThreadPoolTaskExecutor相对于ThreadPoolExecutor的改进点
+        1.提供默认配置，原生的threadPoolExecutor的除了ThreadFactory和RejectedExcutionhandel其他没有默认配置，
+        2.实现AsyncListenableTaskExecutor接口，支持对FutureTask添加success和fail的回调，任务成功或失败的时候回执行对应回调方法。
+        3.因为是spring的工具类，所以抛出的RejectedExecutionException也会被转换为spring框架的TaskRejectedException异常(这个无所谓)
+        4.提供默认ThreadFactory实现，直接通过参数重载配置
+            
