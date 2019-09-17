@@ -15,8 +15,9 @@ For further reference, please consider the following sections:
         1.Schedule :调度器。所有的调度都是有它控制。
         2.Trigger :触发器。决定什么时候执行任务。
         3.JobDetail & Job :JobDetail 定义的是任务数据，而真正的执行逻辑在Job 中。使用JobDetail + Job  而不是Job .这是因为任务可能并发执行，
-        如果schedule 直接使用Job ，就会存在对同一个实例并发访问的问题。而JobDeatail & Job 的方式 schedule 每次执行，都会根据JobDetail 创建一个新的Job 实例。这样就可以避免并发访问的问题。
-        
+        如果schedule 直接使用Job ，就会存在对同一个实例并发访问的问题。而JobDeatail & Job 的方式 schedule 每次执行，
+        都会根据JobDetail 创建一个新的Job 实例。这样就可以避免并发访问的问题。
+         
         
     如何使用Quartz 
     
