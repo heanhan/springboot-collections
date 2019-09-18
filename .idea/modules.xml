@@ -37,6 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-socket/springboot-socket.iml" filepath="$PROJECT_DIR$/springboot-socket/springboot-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-springmvc/springboot-springmvc.iml" filepath="$PROJECT_DIR$/springboot-springmvc/springboot-springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-taskjobs/springboot-taskjobs.iml" filepath="$PROJECT_DIR$/springboot-taskjobs/springboot-taskjobs.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-tk-mapper/springboot-tk-mapper.iml" filepath="$PROJECT_DIR$/springboot-tk-mapper/springboot-tk-mapper.iml" />

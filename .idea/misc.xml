@@ -82,6 +82,7 @@
         <option value="$PROJECT_DIR$/springboot-page/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-messages/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-bolg/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-springmvc/pom.xml" />
       </list>
     </option>
   </component>
