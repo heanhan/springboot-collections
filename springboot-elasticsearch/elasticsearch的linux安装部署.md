@@ -114,3 +114,7 @@ ps -ef|grep java
 END 
 
   elasticsearch7.3
+
+
+恶搞一下
+十年笛子万年萧，一把二胡穿云霄，前年琵琶

@@ -1,7 +1,6 @@
 # Getting Started
 
-### Reference Documentation
-For further reference, please consider the following sections:
+### MongoDB 的学习 Documentation
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+
 
