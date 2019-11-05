@@ -2,7 +2,10 @@ package com.example.aop.aspect;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author : zhaojh
@@ -15,10 +18,14 @@ import org.springframework.stereotype.Component;
 @Component
 public class AuthorizedAspect {
 
+    @Autowired
+    private HttpServletRequest request;
+
     /**
      * 定义切面表达式
      */
 
+    //  @Pointcut("*.*.service.find*(..)")
     @Pointcut("@annotation(org.springframework.web.bind.annotation.RequestMapping)")
     public void requestMapping(){
 
@@ -26,6 +33,7 @@ public class AuthorizedAspect {
 
     @Pointcut("@annotation()")
     public void methodPointCut(){
+
 
     }
 }
