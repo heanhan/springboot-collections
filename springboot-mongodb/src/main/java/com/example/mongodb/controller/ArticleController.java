@@ -3,11 +3,9 @@ package com.example.mongodb.controller;
 import com.example.mongodb.pojo.Article;
 import com.example.mongodb.service.IArticleService;
 import com.example.mongodb.utils.IdWorker;
+import com.mongodb.client.result.UpdateResult;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -60,6 +58,11 @@ public class ArticleController {
         return "add article list is fail !";
     }
 
+    /**
+     * 添加单个文章
+     * @param article 文章
+     * @return success/fail
+     */
     @PostMapping(value = "/addArticleInfo")
     public String addArticleInfo(@RequestBody  Article article){
         Article article1 = articleService.addArticleInfo(article);
@@ -67,6 +70,20 @@ public class ArticleController {
             return "add article one is success";
         }
         return "add article one is fail";
+    }
+
+    /**
+     * 修改第一条数据author 为 zhaojh0912 的数据title 和visitCount
+     * @param author 作者
+     * @param title 标题
+     * @param visitCount 浏览数
+     * @return UpdateResult
+     */
+    @PutMapping(value = "/modifyFirstArticleInfo")
+    public UpdateResult modifyFirstArticleInfo(String author,String title,int visitCount){
+
+        UpdateResult updateResult = articleService.modifyFirstArticleInfo(author, title, visitCount);
+        return updateResult;
     }
 
 

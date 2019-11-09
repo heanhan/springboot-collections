@@ -1,6 +1,7 @@
 package com.example.mongodb.service;
 
 import com.example.mongodb.pojo.Article;
+import com.mongodb.client.result.UpdateResult;
 
 import java.util.List;
 
@@ -19,4 +20,14 @@ public interface IArticleService {
      * @return 文章信息
      */
     Article addArticleInfo(Article article);
+
+
+    /**
+     * 修改第一条数据author 为 zhaojh0912 的数据title 和visitCount
+     * @param author 作者
+     * @param title 标题
+     * @param visitCount 浏览数
+     * @return 文章信息
+     */
+    UpdateResult modifyFirstArticleInfo(String author, String title, int visitCount);
 }
