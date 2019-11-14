@@ -61,6 +61,7 @@
         <module>springboot-bolg</module>
         <module>springboot-springmvc</module>
         <module>springboot-kafka</module>
+        <module>springboot-email</module>
     </modules>
     <dependencies>
 
