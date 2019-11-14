@@ -30,4 +30,13 @@ public interface IArticleService {
      * @return 文章信息
      */
     UpdateResult modifyFirstArticleInfo(String author, String title, int visitCount);
+
+    /**
+     * 修改符合所遇条件的文章信息   条件：  author=zhaojh0912 的title、visitCount
+     * @param author
+     * @param title
+     * @param visitCount
+     * @return
+     */
+    UpdateResult modifyAllArticleInfo(String author, String title, int visitCount);
 }

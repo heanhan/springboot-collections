@@ -57,8 +57,23 @@ public class ArticleServiceImpl implements IArticleService {
     @Override
     @Transactional
     public UpdateResult modifyFirstArticleInfo(String author, String title, int visitCount){
-        Query query = Query.query(Criteria.where("author").is("zhaojh0912"));
+        Query query = Query.query(Criteria.where("author").is(author));
         Update update = Update.update("title", title).set("visitCount", visitCount);
         return mongoTemplate.updateFirst(query,update,Article.class);
+    }
+
+    /**
+     * 修改符合所遇条件的文章信息   条件：  author=zhaojh0912 的title、visitCount
+     * @param author
+     * @param title
+     * @param visitCount
+     * @return
+     */
+    public UpdateResult modifyAllArticleInfo(String author, String title, int visitCount){
+        Query query = Query.query(Criteria.where("author").is(author));
+        Update update = Update.update("title", title).set("visitCount", visitCount);
+        UpdateResult updateResult = mongoTemplate.updateMulti(query, update, Article.class);
+        return updateResult;
+
     }
 }

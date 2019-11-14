@@ -86,6 +86,30 @@ public class ArticleController {
         return updateResult;
     }
 
+    /**
+     * 修改符合所遇条件的文章信息   条件：  author=zhaojh0912 的title、visitCount
+     * @param author 作者
+     * @param title 标题
+     * @param visitCount 浏览数
+     * @return  UpdateResult
+     */
+    @PutMapping(value = "/modifyAllArticleInfo")
+    public UpdateResult modifyAllArticleInfo(String author,String title,int visitCount){
+        UpdateResult updateResult = articleService.modifyAllArticleInfo(author, title, visitCount);
+        return updateResult;
+    }
+
+    /**
+     * 特殊更新 有则更新，没有则添加一条数据
+     * @param author 作者
+     * @param title 标题
+     * @param visitCount 浏览数
+     * @return UpdateResult
+     */
+    @PutMapping(value = "/modifySpecialArticle")
+    public UpdateResult modifySpecialArticle(String author,String title,int visitCount){
+        return null;
+    }
 
 
 }
