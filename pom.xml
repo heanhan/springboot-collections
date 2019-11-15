@@ -60,6 +60,7 @@
         <module>springboot-messages</module>
         <module>springboot-bolg</module>
         <module>springboot-springmvc</module>
+        <module>springboot-fastjson</module>
         <module>springboot-kafka</module>
         <module>springboot-email</module>
     </modules>
