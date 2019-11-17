@@ -42,7 +42,7 @@ public class SsoAuthorizationServerConfig extends AuthorizationServerConfigurerA
                 .accessTokenValiditySeconds(3600)
                 .scopes("all")
                 .autoApprove(true)
-                .redirectUris("http://127.0.0.1:9361/app1/login")
+                .redirectUris("http://127.0.0.1:9361/login")
                 .and()
                 .withClient("app-b")
                 .secret(passwordEncoder.encode("springboot-two-sso-1234"))
@@ -50,7 +50,7 @@ public class SsoAuthorizationServerConfig extends AuthorizationServerConfigurerA
                 .accessTokenValiditySeconds(7200)
                 .scopes("all")
                 .autoApprove(true)
-                .redirectUris("http://127.0.0.1:9091/app2/login");
+                .redirectUris("http://127.0.0.1:9362/login");
     }
 
     @Override

@@ -1,0 +1,5 @@
+# Spring Boot中的JSON技术
+
+平日里在项目中处理JSON一般用的都是阿里巴巴的Fastjson，后来发现使用Spring Boot内置的Jackson来完成JSON的序列化和反序列化操作也挺方便。Jackson不但可以完成简单的序列化和反序列化操作，
+也能实现复杂的个性化的序列化和反序列化操作。
+
