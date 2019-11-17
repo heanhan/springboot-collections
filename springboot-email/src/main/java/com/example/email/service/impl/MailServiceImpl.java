@@ -16,7 +16,7 @@ import java.util.Date;
 /**
  * @author : zhaojh
  * @date : 2019-11-15
- * @function :
+ * @function :邮件服务的业务实现层
  */
 
 @Slf4j
