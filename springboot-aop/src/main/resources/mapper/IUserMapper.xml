@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.aop.mapper.IUserMapper">
+
+
+    <insert id="addUserInfo" parameterType="com.example.aop.entity.pojo.User">
+        insert into log_user (id,name,password,age)  value(#{id},#{name},#{password},#{age})
+    </insert>
+</mapper>

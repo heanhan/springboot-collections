@@ -1,6 +1,7 @@
 package com.example.aop.aspect;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
 import java.util.Date;
 
 import javax.servlet.http.HttpServletRequest;
@@ -8,7 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import com.example.aop.annotation.Log;
 import com.example.aop.entity.pojo.SysLog;
 import com.example.aop.utils.HttpContextUtils;
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
@@ -71,11 +74,26 @@ public class LogAspect {
 		HttpServletRequest request = HttpContextUtils.getHttpServletRequest();
 		// 设置IP地址
 		// 模拟一个用户名
-		sysLog.setUsername("mrbird");
+		sysLog.setUsername("zhaojh");
 		sysLog.setTime((int) time);
 		Date date = new Date();
 		sysLog.setCreateTime(date);
 		// 保存系统日志
 		//此处写自己的保存方案
 	}
+
+	@AfterReturning(value = "pointcut()",returning="returnValue")
+	public void ddd(JoinPoint point, Object returnValue){
+
+		System.out.println("@AfterReturning：模拟日志记录功能...");
+		System.out.println("@AfterReturning：目标方法为：" +
+				point.getSignature().getDeclaringTypeName() +
+				"." + point.getSignature().getName());
+		System.out.println("@AfterReturning：参数为：" +
+				Arrays.toString(point.getArgs()));
+		System.out.println("@AfterReturning：返回值为：" + returnValue);
+		System.out.println("@AfterReturning：被织入的目标对象为：" + point.getTarget());
+
+	}
+
 }
