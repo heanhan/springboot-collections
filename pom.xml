@@ -65,6 +65,7 @@
         <module>springboot-email</module>
         <module>springboot-sso</module>
         <module>springboot-jackson</module>
+        <module>springboot-office</module>
     </modules>
     <dependencies>
 
