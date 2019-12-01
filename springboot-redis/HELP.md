@@ -5,7 +5,7 @@
 
 `
 
-    @Configuration
+     @Configuration
      @ConditionalOnClass(RedisOperations.class)
      @EnableConfigurationProperties(RedisProperties.class)
      @Import({ LettuceConnectionConfiguration.class, JedisConnectionConfiguration.class })
