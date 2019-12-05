@@ -66,6 +66,7 @@
         <module>springboot-sso</module>
         <module>springboot-jackson</module>
         <module>springboot-office</module>
+        <module>springboot-netty</module>
     </modules>
     <dependencies>
 
