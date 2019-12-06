@@ -4,19 +4,19 @@
 <mapper namespace="com.example.mybatis.mapper.IStudentMapper">
 
     <!--添加学生-->
-    <insert id="addStudent" parameterType="com.example.mybatis.pojo.Student">
+    <insert id="addStudent" parameterType="com.example.mybatis.entity.pojo.Student">
         insert into student(stuId,stuName,age,sex,telphone,headPhoto,personPhoto,hobby,email,descs)
         values (#{stuId},#{stuName},#{age},#{sex},#{telphone},#{headPhoto},#{personPhoto},#{hobby},#{email},#{descs})
     </insert>
 
     <!--查询所有的学生信息-->
-    <select id="findAllStudent" resultType="com.example.mybatis.pojo.Student">
+    <select id="findAllStudent" resultType="com.example.mybatis.entity.pojo.Student">
         select * from student
     </select>
 
     <!--动态条件查询学生信息-->
 
-    <select id="findStudentByCondition" resultType="com.example.mybatis.pojo.Student">
+    <select id="findStudentByCondition" resultType="com.example.mybatis.entity.pojo.Student">
         select * from  student
         <where>
             <if test="stuId != null and stuId !=''">

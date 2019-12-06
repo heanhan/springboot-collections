@@ -1,6 +1,6 @@
 package com.example.mybatis.mapper;
 
-import com.example.mybatis.pojo.Grade;
+import com.example.mybatis.entity.pojo.Grade;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -13,7 +13,7 @@ public interface IGradeMapper {
      * @param grade
      * @return
      */
-    public int addGrade(Grade grade);
+    int addGrade(Grade grade);
 
     /**
      * 查询班级的学生

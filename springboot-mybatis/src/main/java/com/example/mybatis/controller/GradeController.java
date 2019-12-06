@@ -3,7 +3,7 @@ package com.example.mybatis.controller;
 import com.example.common.model.Result;
 import com.example.common.model.StatusCode;
 import com.example.common.utils.IdWorker;
-import com.example.mybatis.pojo.Grade;
+import com.example.mybatis.entity.pojo.Grade;
 import com.example.mybatis.service.IGradeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

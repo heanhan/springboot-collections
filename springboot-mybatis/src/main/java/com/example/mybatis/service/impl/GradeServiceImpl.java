@@ -1,7 +1,7 @@
 package com.example.mybatis.service.impl;
 
 import com.example.mybatis.mapper.IGradeMapper;
-import com.example.mybatis.pojo.Grade;
+import com.example.mybatis.entity.pojo.Grade;
 import com.example.mybatis.service.IGradeService;
 import org.springframework.stereotype.Service;
 

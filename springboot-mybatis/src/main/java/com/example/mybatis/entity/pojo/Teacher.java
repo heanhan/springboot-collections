@@ -1,4 +1,4 @@
-package com.example.mybatis.pojo;
+package com.example.mybatis.entity.pojo;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;

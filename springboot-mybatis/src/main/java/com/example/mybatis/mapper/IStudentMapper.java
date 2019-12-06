@@ -1,6 +1,6 @@
 package com.example.mybatis.mapper;
 
-import com.example.mybatis.pojo.Student;
+import com.example.mybatis.entity.pojo.Student;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

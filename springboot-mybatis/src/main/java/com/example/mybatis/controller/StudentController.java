@@ -3,20 +3,23 @@ package com.example.mybatis.controller;
 import com.example.common.model.Result;
 import com.example.common.model.StatusCode;
 import com.example.common.utils.IdWorker;
-import com.example.mybatis.pojo.Student;
+import com.example.mybatis.entity.pojo.Student;
 import com.example.mybatis.service.IStudentService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Api
 @RestController
 @RequestMapping(value="/student")
 public class StudentController {
 
-    private int i=-1;
+    private int i=-1;//标识开关
 
     @Autowired
     private IdWorker idWorker;
@@ -28,6 +31,7 @@ public class StudentController {
      * 添加学生
      */
     @PostMapping(value="/addStudent")
+    @ApiOperation(value = "接口名称:添加学生     ", notes = "接口的详细说明")
     public Result addStudent(Student student){
         student.setStuId(idWorker.nextId()+"");//添加主键
         i=studentService.addStudent(student);

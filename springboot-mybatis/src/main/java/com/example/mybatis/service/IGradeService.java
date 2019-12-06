@@ -1,7 +1,7 @@
 package com.example.mybatis.service;
 
 
-import com.example.mybatis.pojo.Grade;
+import com.example.mybatis.entity.pojo.Grade;
 
 import java.util.List;
 

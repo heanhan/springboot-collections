@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zhaojh.mybatis.mapper.IGradeMapper">
+<mapper namespace="com.example.mybatis.mapper.IGradeMapper">
 
     <!--添加班级-->
-    <insert id="addGrade" parameterType="grade">
+    <insert id="addGrade" parameterType="com.example.mybatis.entity.pojo.Grade">
         insert into grade(gid,period,gName) values (#{gid},#{period},#{gName})
     </insert>
 
     <!--查询班级里的学生-->
-    <resultMap id="gradeOfStudent" type="Grade">
+    <resultMap id="gradeOfStudent" type="com.example.mybatis.entity.pojo.Grade">
         <id column="gid" property="gid" javaType="string"></id>
         <result column="gName" property="gName"></result>
         <result column="period" property="period"></result>
-        <collection property="studentList" javaType="List" ofType="Student">
+        <collection property="studentList" javaType="List" ofType="com.example.mybatis.entity.pojo.Student">
             <id column="stuId" property="stuId"></id>
             <result column="stuName" property="stuName"></result>
             <result column="descs" property="descs"></result>
@@ -24,6 +24,6 @@
         select g.gid,g.gName,g.period,s.stuId,s.stuName,s.descs from grade  g left join student  s
         on g.gid=s.grade
         where g.gid=#{gid}
-
     </select>
+
 </mapper>

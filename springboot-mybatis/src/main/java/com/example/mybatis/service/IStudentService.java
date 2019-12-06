@@ -1,6 +1,6 @@
 package com.example.mybatis.service;
 
-import com.example.mybatis.pojo.Student;
+import com.example.mybatis.entity.pojo.Student;
 
 import java.util.List;
 
