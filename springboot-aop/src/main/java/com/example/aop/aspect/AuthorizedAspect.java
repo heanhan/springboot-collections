@@ -25,7 +25,10 @@ public class AuthorizedAspect {
      * 定义切面表达式
      */
 
-    //  @Pointcut("*.*.service.find*(..)")
+//      @Pointcut("*.*.service.find*(..)")
+
+
+
     @Pointcut("@annotation(org.springframework.web.bind.annotation.RequestMapping)")
     public void requestMapping(){
 
