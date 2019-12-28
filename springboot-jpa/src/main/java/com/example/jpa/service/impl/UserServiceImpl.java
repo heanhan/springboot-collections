@@ -287,11 +287,11 @@ public class UserServiceImpl implements UserService {
 
                 List<Predicate> predicates = new ArrayList<>();//创建一个Prddicate 添加封装集合
 
-                if(userId!=null&&"".equals(userId)){
+                if(userId!=null&&!"".equals(userId)){
                     Path<User> userId1 = root.get("userId");
                     predicates.add(criteriaBuilder.equal(userId1.as(Integer.class), userId));
                 }
-                if(userName!=null&&"".equals(userName)){
+                if(userName!=null&&!"".equals(userName)){
                     Path<User> userName1 = root.get("userName");
                     predicates.add(criteriaBuilder.like(userName1.as(String.class),"%"+userName+"%"));
 
