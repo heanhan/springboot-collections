@@ -261,7 +261,8 @@ public class UserServiceImpl implements UserService {
             }
         };
 
-        Page<User> userPage = userDao.findAll(specUser, pageRequest); return userPage;
+        Page<User> userPage = userDao.findAll(specUser, pageRequest);
+        return userPage;
     }
 
 
