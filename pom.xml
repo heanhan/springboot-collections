@@ -67,6 +67,7 @@
         <module>springboot-jackson</module>
         <module>springboot-office</module>
         <module>springboot-netty</module>
+        <module>springboot-use-jenkins</module>
     </modules>
     <dependencies>
 
