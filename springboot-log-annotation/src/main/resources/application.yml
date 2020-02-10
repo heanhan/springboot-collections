@@ -1,0 +1,10 @@
+#微服务的配资信息
+server:
+  port: 9360
+
+spring:
+  application:
+    name: springboot-log-annotation
+  profiles:
+    active: dev
+#配置mysql数据库的连接信息

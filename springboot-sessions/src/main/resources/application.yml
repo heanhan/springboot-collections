@@ -1,0 +1,25 @@
+#配置微服务
+server:
+  port: 9363
+
+spring:
+  application:
+    name: springboot-sessions
+
+  data:
+    redis:
+      repositories:
+        enabled: true
+  redis:
+    database: 0
+    host: 192.168.1.22
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 1024
+        min-idle: 10
+
+  session:
+    redis:
+      namespace: evidence
+      

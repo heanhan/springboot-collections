@@ -68,6 +68,11 @@
         <module>springboot-office</module>
         <module>springboot-netty</module>
         <module>springboot-use-jenkins</module>
+        <module>Springboot-sessions</module>
+        <module>springboot-log-annotation</module>
+        <module>springboot-sso/springboot-server-sso</module>
+        <module>springboot-webflux</module>
+        <module>springboot-webservice</module>
     </modules>
     <dependencies>
 
