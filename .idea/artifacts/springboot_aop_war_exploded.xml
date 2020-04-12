@@ -14,10 +14,13 @@
           <element id="module-output" name="springboot-aop" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="springboot-common-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="springboot-common" />
+          </element>
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.1.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
@@ -73,7 +76,19 @@
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.4" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.16" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid-spring-boot-starter:1.1.18" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.18" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.26" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:2.0.1" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:3.2.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:2.0.1" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.1" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.8.RELEASE" />
         </element>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-log-annotation:war">
+    <output-path>$PROJECT_DIR$/springboot-log-annotation/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-log-annotation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-log-annotation-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-log-annotation:war exploded" />
+    </root>
+  </artifact>
+</component>

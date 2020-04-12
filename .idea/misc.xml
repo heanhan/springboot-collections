@@ -7,7 +7,9 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-commandlinerunner" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-crossorigin" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-elasticsearch" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-email" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-fastDFS" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-fastjson" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-file" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-files" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-fileupload" />
@@ -19,11 +21,14 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-https" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-interceptor" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-jpa" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-log-annotation" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-messages" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mongodb" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatisplus" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mycat" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-netty" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-office" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-page" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-pdf" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-poi" />
@@ -31,6 +36,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-rabbitmq" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-readsql" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-redis" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-sessions" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-shiro" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-socket" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-swagger" />
@@ -38,7 +44,10 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-test" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-tk-mapper" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-transactions" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-use-jenkins" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-web" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-webflux" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-webservice" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-websocket" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-xml" />
   </component>
@@ -47,7 +56,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-html/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-common/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-taskjobs/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-web/pom.xml" />
@@ -83,6 +91,7 @@
         <option value="$PROJECT_DIR$/springboot-messages/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-bolg/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-html/pom.xml" />
       </list>
     </option>
   </component>

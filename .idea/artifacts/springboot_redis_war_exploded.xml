@@ -75,6 +75,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:5.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.xmlunit:xmlunit-core:2.6.2" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.1" />
+          <element id="library" level="project" name="Maven: javax.activation:javax.activation-api:1.2.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

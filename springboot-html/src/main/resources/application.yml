@@ -1,0 +1,9 @@
+server:
+  port: 9312
+spring:
+  application:
+    name: springboot-html
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/

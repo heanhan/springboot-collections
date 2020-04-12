@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-email:war">
+    <output-path>$PROJECT_DIR$/springboot-email/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-email</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-email-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-email:war exploded" />
+    </root>
+  </artifact>
+</component>

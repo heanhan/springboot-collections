@@ -11,7 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-common/springboot-common.iml" filepath="$PROJECT_DIR$/springboot-common/springboot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-crossorigin/springboot-crossorigin.iml" filepath="$PROJECT_DIR$/springboot-crossorigin/springboot-crossorigin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-email/springboot-email.iml" filepath="$PROJECT_DIR$/springboot-email/springboot-email.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-fastDFS/springboot-fastDFS.iml" filepath="$PROJECT_DIR$/springboot-fastDFS/springboot-fastDFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-fastjson/springboot-fastjson.iml" filepath="$PROJECT_DIR$/springboot-fastjson/springboot-fastjson.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-files/springboot-files.iml" filepath="$PROJECT_DIR$/springboot-files/springboot-files.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-fileupload/springboot-fileupload.iml" filepath="$PROJECT_DIR$/springboot-fileupload/springboot-fileupload.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-ftp-jsch/springboot-ftp-jsch.iml" filepath="$PROJECT_DIR$/springboot-ftp-jsch/springboot-ftp-jsch.iml" />
@@ -21,12 +23,18 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-httpclient/springboot-httpclient.iml" filepath="$PROJECT_DIR$/springboot-httpclient/springboot-httpclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-https/springboot-https.iml" filepath="$PROJECT_DIR$/springboot-https/springboot-https.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-interceptor/springboot-interceptor.iml" filepath="$PROJECT_DIR$/springboot-interceptor/springboot-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jackson/springboot-jackson.iml" filepath="$PROJECT_DIR$/springboot-jackson/springboot-jackson.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" filepath="$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-log-annotation/springboot-log-annotation.iml" filepath="$PROJECT_DIR$/springboot-log-annotation/springboot-log-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-messages/springboot-messages.iml" filepath="$PROJECT_DIR$/springboot-messages/springboot-messages.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" filepath="$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" filepath="$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-netty/springboot-netty.iml" filepath="$PROJECT_DIR$/springboot-netty/springboot-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-office/springboot-office.iml" filepath="$PROJECT_DIR$/springboot-office/springboot-office.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sso/springboot-one-sso/springboot-one-sso.iml" filepath="$PROJECT_DIR$/springboot-sso/springboot-one-sso/springboot-one-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-page/springboot-page.iml" filepath="$PROJECT_DIR$/springboot-page/springboot-page.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-pdf/springboot-pdf.iml" filepath="$PROJECT_DIR$/springboot-pdf/springboot-pdf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-poi/springboot-poi.iml" filepath="$PROJECT_DIR$/springboot-poi/springboot-poi.iml" />
@@ -35,14 +43,21 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-readsql/springboot-readsql.iml" filepath="$PROJECT_DIR$/springboot-readsql/springboot-readsql.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sso/springboot-server-sso/springboot-server-sso.iml" filepath="$PROJECT_DIR$/springboot-sso/springboot-server-sso/springboot-server-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sessions/springboot-sessions.iml" filepath="$PROJECT_DIR$/springboot-sessions/springboot-sessions.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-socket/springboot-socket.iml" filepath="$PROJECT_DIR$/springboot-socket/springboot-socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-springmvc/springboot-springmvc.iml" filepath="$PROJECT_DIR$/springboot-springmvc/springboot-springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sso/springboot-sso.iml" filepath="$PROJECT_DIR$/springboot-sso/springboot-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-taskjobs/springboot-taskjobs.iml" filepath="$PROJECT_DIR$/springboot-taskjobs/springboot-taskjobs.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-tk-mapper/springboot-tk-mapper.iml" filepath="$PROJECT_DIR$/springboot-tk-mapper/springboot-tk-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-transactions/springboot-transactions.iml" filepath="$PROJECT_DIR$/springboot-transactions/springboot-transactions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sso/springboot-two-sso/springboot-two-sso.iml" filepath="$PROJECT_DIR$/springboot-sso/springboot-two-sso/springboot-two-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-use-jenkins/springboot-use-jenkins.iml" filepath="$PROJECT_DIR$/springboot-use-jenkins/springboot-use-jenkins.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux/springboot-webflux.iml" filepath="$PROJECT_DIR$/springboot-webflux/springboot-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webservice/springboot-webservice.iml" filepath="$PROJECT_DIR$/springboot-webservice/springboot-webservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-xml/springboot-xml.iml" filepath="$PROJECT_DIR$/springboot-xml/springboot-xml.iml" />
     </modules>
